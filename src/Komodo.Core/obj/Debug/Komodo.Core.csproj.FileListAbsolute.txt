@@ -1,0 +1,14 @@
+C:\repo\Komodo\Komodo\Komodo.Core\bin\Debug\Komodo.Core.dll
+C:\repo\Komodo\Komodo\Komodo.Core\bin\Debug\Komodo.Core.pdb
+C:\repo\Komodo\Komodo\Komodo.Core\bin\Debug\Castle.Core.dll
+C:\repo\Komodo\Komodo\Komodo.Core\bin\Debug\FluentNHibernate.dll
+C:\repo\Komodo\Komodo\Komodo.Core\bin\Debug\Iesi.Collections.dll
+C:\repo\Komodo\Komodo\Komodo.Core\bin\Debug\NHibernate.ByteCode.Castle.dll
+C:\repo\Komodo\Komodo\Komodo.Core\bin\Debug\NHibernate.dll
+C:\repo\Komodo\Komodo\Komodo.Core\bin\Debug\Castle.Core.xml
+C:\repo\Komodo\Komodo\Komodo.Core\bin\Debug\FluentNHibernate.pdb
+C:\repo\Komodo\Komodo\Komodo.Core\bin\Debug\Iesi.Collections.pdb
+C:\repo\Komodo\Komodo\Komodo.Core\bin\Debug\NHibernate.ByteCode.Castle.xml
+C:\repo\Komodo\Komodo\Komodo.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\repo\Komodo\Komodo\Komodo.Core\obj\Debug\Komodo.Core.dll
+C:\repo\Komodo\Komodo\Komodo.Core\obj\Debug\Komodo.Core.pdb

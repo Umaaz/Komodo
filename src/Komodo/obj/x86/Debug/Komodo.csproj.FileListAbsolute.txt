@@ -1,0 +1,8 @@
+C:\repo\Komodo\Komodo\Komodo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\repo\Komodo\Komodo\Komodo\obj\x86\Debug\Komodo.Properties.Resources.resources
+C:\repo\Komodo\Komodo\Komodo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\repo\Komodo\Komodo\Komodo\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\repo\Komodo\Komodo\Komodo\bin\Debug\Komodo.dll
+C:\repo\Komodo\Komodo\Komodo\bin\Debug\Komodo.pdb
+C:\repo\Komodo\Komodo\Komodo\obj\x86\Debug\Komodo.dll
+C:\repo\Komodo\Komodo\Komodo\obj\x86\Debug\Komodo.pdb

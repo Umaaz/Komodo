@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3a5282aa-ce68-430f-ad38-cefda4dbea9b" name="Ben@BEN_VIRTUAL_DEV 2012-02-12 16:31:48" runUser="BEN_VIRTUAL_DEV\Ben" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="6b0181d3-dd2d-46cd-994b-ee321ed33afe">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Ben_BEN_VIRTUAL_DEV 2012-02-12 16_31_48">
+      <DeploymentItem filename="C:\repo\Komodo\Komodo\packages\HtmlAgilityPack.1.4.3\lib\HtmlAgilityPack.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\Komodo\Komodo.Core\bin\Debug\Komodo.Core.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\Komodo\Komodo\bin\Debug\Komodo.Scraper.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-12T16:31:48.1848750+00:00" queuing="2012-02-12T16:31:50.4026484+00:00" start="2012-02-12T16:31:50.6243281+00:00" finish="2012-02-12T16:32:15.4612422+00:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="BEN_VIRTUAL_DEV" outcome="Error" timestamp="2012-02-12T16:32:15.4602656+00:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="PageFetcherConstructorTest" storage="c:\repo\komodo\komodo\komodo.unittest\bin\debug\komodo.unittest.dll" id="f44a4466-4518-c384-6e24-36ad2220a8c2">
+      <Execution id="fea7d879-0658-479f-88bf-00af50875c0a" />
+      <TestMethod codeBase="C:/repo/Komodo/Komodo/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.PageFetcherTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PageFetcherConstructorTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f44a4466-4518-c384-6e24-36ad2220a8c2" executionId="fea7d879-0658-479f-88bf-00af50875c0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fea7d879-0658-479f-88bf-00af50875c0a" testId="f44a4466-4518-c384-6e24-36ad2220a8c2" testName="PageFetcherConstructorTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:24.7480469" startTime="2012-02-12T16:31:50.7131953+00:00" endTime="2012-02-12T16:32:15.4612422+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fea7d879-0658-479f-88bf-00af50875c0a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

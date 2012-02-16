@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f35ce293-f705-478b-b923-dd0b84c5016c" name="Ben@BEN_VIRTUAL_DEV 2012-02-12 16:28:36" runUser="BEN_VIRTUAL_DEV\Ben" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="6b0181d3-dd2d-46cd-994b-ee321ed33afe">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Ben_BEN_VIRTUAL_DEV 2012-02-12 16_28_36">
+      <DeploymentItem filename="C:\repo\Komodo\Komodo\packages\HtmlAgilityPack.1.4.3\lib\HtmlAgilityPack.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\Komodo\Komodo.Core\bin\Debug\Komodo.Core.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\Komodo\Komodo\bin\Debug\Komodo.Scraper.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-12T16:28:36.8762813+00:00" queuing="2012-02-12T16:28:38.4055781+00:00" start="2012-02-12T16:28:38.5579219+00:00" finish="2012-02-12T16:28:39.5618281+00:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="PageFetcherConstructorTest" storage="c:\repo\komodo\komodo\komodo.unittest\bin\debug\komodo.unittest.dll" id="f44a4466-4518-c384-6e24-36ad2220a8c2">
+      <Execution id="8c05f1e2-0f3f-4aae-8d1e-bda775734b7e" />
+      <TestMethod codeBase="C:/repo/Komodo/Komodo/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.PageFetcherTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PageFetcherConstructorTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f44a4466-4518-c384-6e24-36ad2220a8c2" executionId="8c05f1e2-0f3f-4aae-8d1e-bda775734b7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8c05f1e2-0f3f-4aae-8d1e-bda775734b7e" testId="f44a4466-4518-c384-6e24-36ad2220a8c2" testName="PageFetcherConstructorTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.1562522" startTime="2012-02-12T16:28:38.6126094+00:00" endTime="2012-02-12T16:28:39.5022578+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c05f1e2-0f3f-4aae-8d1e-bda775734b7e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Komodo.UnitTest.PageFetcherTest.PageFetcherConstructorTest threw exception: 
+System.UriFormatException: Invalid URI: The format of the URI could not be determined.</Message>
+          <StackTrace>    at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Net.WebRequest.Create(String requestUriString)
+   at Komodo.Scraper.Net.Checker.CheckNetConnection(String url) in C:\repo\Komodo\Komodo\Komodo\Net\Checker.cs:line 11
+   at Komodo.Scraper.IMDB.PageFetcher.GetPage() in C:\repo\Komodo\Komodo\Komodo\IMDB\PageFetcher.cs:line 29
+   at Komodo.Scraper.IMDB.PageFetcher..ctor(String url) in C:\repo\Komodo\Komodo\Komodo\IMDB\PageFetcher.cs:line 21
+   at Komodo.UnitTest.PageFetcherTest.PageFetcherConstructorTest() in C:\repo\Komodo\Komodo\Komodo.UnitTest\PageFetcherTest.cs:line 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
