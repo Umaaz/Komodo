@@ -1,19 +1,17 @@
-﻿using Komodo.Scraper.Fetcher.Types;
-using Komodo.Scraper.IMDB;
+﻿using Komodo.Scraper.StringManipulation;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Komodo.Scraper.Fetcher;
-using System.Collections.Generic;
+using System;
 
 namespace Komodo.UnitTest
 {
     
     
     /// <summary>
-    ///This is a test class for ImdbSearchTest and is intended
-    ///to contain all ImdbSearchTest Unit Tests
+    ///This is a test class for ExtractorTest and is intended
+    ///to contain all ExtractorTest Unit Tests
     ///</summary>
     [TestClass()]
-    public class ImdbSearchTest
+    public class ExtractorTest
     {
 
 
@@ -67,17 +65,17 @@ namespace Komodo.UnitTest
 
 
         /// <summary>
-        ///A test for Find
+        ///A test for Extract
         ///</summary>
         [TestMethod()]
-        public void FindTest()
+        public void ExtractTest()
         {
-            var title = "Matrix"; // TODO: Initialize to an appropriate value
-            var target = new ImdbSearch(title); // TODO: Initialize to an appropriate value
-            IList<Result> expected = null; // TODO: Initialize to an appropriate value
-            var actual = target.Results;
-            Assert.AreEqual(expected, actual);
-            Assert.Inconclusive("Verify the correctness of this test method.");
+            string expression = "<a href=\"/title/{X}/\" title=\"{X}({X})\"><img src=\"{X}\" height=\"[0-9]*\" width=\"[0-9]*\" alt=\"[^\"]*\" title=\"[^\"]*\"></a>";
+            string value = "<a href=\"/title/tt0133093/\" title=\"The Matrix (1999)\"><img src=\"http://ia.media-imdb.com/images/M/MV5BMjEzNjg1NTg2NV5BMl5BanBnXkFtZTYwNjY3MzQ5._V1._SX54_CR0,0,54,74_.jpg\" height=\"74\" width=\"54\" alt=\"The Matrix (1999)\" title=\"The Matrix (1999)\"></a>";
+            string[] expected = {"tt0133093","The Matrix","1999","http://ia.media-imdb.com/images/M/MV5BMjEzNjg1NTg2NV5BMl5BanBnXkFtZTYwNjY3MzQ5._V1._SX54_CR0,0,54,74_.jpg"};
+            string[] actual, actual2;
+            actual = Extractor.Extract(expression, value);
+            Assert.AreEqual(expected.ToString(),actual.ToString());
         }
     }
 }

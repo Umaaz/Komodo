@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Komodo.Scraper.Fetcher.Types;
 
 namespace Komodo.Scraper.Fetcher
 {
@@ -8,7 +9,7 @@ namespace Komodo.Scraper.Fetcher
 
         protected Search(string title)
         {
-            
+            Results = new List<Result>();
         }
 
         public abstract void Find();

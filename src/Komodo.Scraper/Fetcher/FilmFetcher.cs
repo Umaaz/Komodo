@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Komodo.Core.Types;
+using Komodo.Scraper.Fetcher.Types;
 
 namespace Komodo.Scraper.Fetcher
 {

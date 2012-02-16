@@ -49,6 +49,7 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExtractorTest.cs" />
     <Compile Include="ImdbSearchTest.cs" />
     <Compile Include="PageFetcherTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

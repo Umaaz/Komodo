@@ -1,5 +1,5 @@
 ﻿using System;
-using Komodo.Scraper.Fetcher;
+using Komodo.Scraper.Fetcher.Types;
 
 namespace Komodo.Scraper.IMDB.Types
 {

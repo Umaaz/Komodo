@@ -1,4 +1,4 @@
-﻿namespace Komodo.Scraper.Fetcher
+﻿namespace Komodo.Scraper.Fetcher.Types
 {
     public abstract class Result
     {

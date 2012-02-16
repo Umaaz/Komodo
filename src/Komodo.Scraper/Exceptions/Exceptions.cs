@@ -69,4 +69,24 @@ namespace Komodo.Scraper.Exceptions
         {
         }
     }
+
+    [Serializable]
+    public class SourceInvalidException : Exception
+    {
+        public SourceInvalidException()
+        {
+        }
+
+        public SourceInvalidException(string message) : base(message)
+        {
+        }
+
+        public SourceInvalidException(string message, Exception inner) : base(message, inner)
+        {
+        }
+
+        protected SourceInvalidException(SerializationInfo info, StreamingContext context) : base(info, context)
+        {
+        }
+    }
 }

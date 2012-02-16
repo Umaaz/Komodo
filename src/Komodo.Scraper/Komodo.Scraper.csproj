@@ -38,7 +38,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Exceptions\Exceptions.cs" />
-    <Compile Include="Fetcher\Result.cs" />
+    <Compile Include="Fetcher\Types\Result.cs" />
     <Compile Include="Fetcher\Search.cs" />
     <Compile Include="IMDB\Constants.cs" />
     <Compile Include="Fetcher\FilmFetcher.cs" />
@@ -46,7 +46,9 @@
     <Compile Include="IMDB\ImdbSearch.cs" />
     <Compile Include="IMDB\Types\ImdbResult.cs" />
     <Compile Include="Net\Checker.cs" />
+    <Compile Include="Net\HtmlEscapeCharConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringManipulation\Extractor.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
