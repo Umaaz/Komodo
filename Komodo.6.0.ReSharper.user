@@ -1,67 +1,53 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Properties/f:Settings.Designer.cs" caret="542" fromTop="15" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/f:packages.config" caret="0" fromTop="0" />
-      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/f:Role.cs" caret="233" fromTop="8" />
-      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/f:KeyWord.cs" caret="176" fromTop="7" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:Constants.cs" caret="524" fromTop="8" />
-      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/f:Genre.cs" caret="68" fromTop="4" />
-      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/f:Person.cs" caret="233" fromTop="8" />
-      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/f:Film.cs" caret="13" fromTop="0" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Net/f:Checker.cs" caret="686" fromTop="23" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Exceptions/f:Exceptions.cs" caret="434" fromTop="11" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:PageFetcher.cs" caret="198" fromTop="8" />
-      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:PageFetcherTest.cs" caret="1891" fromTop="38" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/d:Types/f:ImdbResult.cs" caret="219" fromTop="9" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:Result.cs" caret="160" fromTop="5" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:Search.cs" caret="158" fromTop="7" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbSearch.cs" caret="215" fromTop="8" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:FilmFetcher.cs" caret="460" fromTop="18" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:Result.cs" caret="288" fromTop="11" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/d:Types/f:ImdbResult.cs" caret="319" fromTop="10" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:FilmFetcher.cs" caret="437" fromTop="14" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:Search.cs" caret="167" fromTop="7" />
+      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:PageFetcherTest.cs" caret="1976" fromTop="39" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Net/f:Checker.cs" caret="0" fromTop="0" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:Constants.cs" caret="476" fromTop="7" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:PageFetcher.cs" caret="1515" fromTop="30" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbSearch.cs" caret="1584" fromTop="33" />
+      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:ImdbSearchTest.cs" caret="2143" fromTop="13" />
     </RecentFiles>
     <RecentEdits>
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:PageFetcher.cs" caret="1636" fromTop="42" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:PageFetcher.cs" caret="1636" fromTop="39" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:PageFetcher.cs" caret="1636" fromTop="44" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:PageFetcher.cs" caret="1636" fromTop="19" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Exceptions/f:Exceptions.cs" caret="914" fromTop="23" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Exceptions/f:Exceptions.cs" caret="609" fromTop="11" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Exceptions/f:Exceptions.cs" caret="701" fromTop="15" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Exceptions/f:Exceptions.cs" caret="845" fromTop="19" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Exceptions/f:Exceptions.cs" caret="1016" fromTop="28" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Exceptions/f:Exceptions.cs" caret="94" fromTop="5" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Exceptions/f:Exceptions.cs" caret="432" fromTop="10" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Exceptions/f:Exceptions.cs" caret="1537" fromTop="45" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Exceptions/f:Exceptions.cs" caret="1571" fromTop="37" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Exceptions/f:Exceptions.cs" caret="1641" fromTop="41" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Exceptions/f:Exceptions.cs" caret="1741" fromTop="45" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Exceptions/f:Exceptions.cs" caret="1919" fromTop="37" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:PageFetcher.cs" caret="1636" fromTop="50" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:Result.cs" caret="86" fromTop="6" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:Result.cs" caret="0" fromTop="0" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/d:Types/f:ImdbResult.cs" caret="325" fromTop="14" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/d:Types/f:ImdbResult.cs" caret="430" fromTop="13" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/d:Types/f:ImdbResult.cs" caret="219" fromTop="9" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:FilmFetcher.cs" caret="15" fromTop="1" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:FilmFetcher.cs" caret="240" fromTop="9" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:Search.cs" caret="307" fromTop="9" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbSearch.cs" caret="417" fromTop="14" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:Search.cs" caret="233" fromTop="11" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:Search.cs" caret="158" fromTop="7" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbSearch.cs" caret="214" fromTop="8" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:FilmFetcher.cs" caret="437" fromTop="14" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:Search.cs" caret="93" fromTop="4" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:Search.cs" caret="182" fromTop="8" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:Result.cs" caret="78" fromTop="4" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:Result.cs" caret="202" fromTop="8" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:PageFetcher.cs" caret="704" fromTop="31" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:PageFetcher.cs" caret="394" fromTop="28" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:PageFetcher.cs" caret="934" fromTop="38" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:PageFetcher.cs" caret="1205" fromTop="44" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:PageFetcher.cs" caret="502" fromTop="27" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:PageFetcher.cs" caret="304" fromTop="9" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbSearch.cs" caret="446" fromTop="18" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbSearch.cs" caret="1815" fromTop="34" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/d:Types/f:ImdbResult.cs" caret="318" fromTop="10" />
+      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:PageFetcherTest.cs" caret="2075" fromTop="32" />
+      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:PageFetcherTest.cs" caret="2301" fromTop="39" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:Constants.cs" caret="435" fromTop="7" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:Search.cs" caret="275" fromTop="13" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbSearch.cs" caret="990" fromTop="27" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbSearch.cs" caret="747" fromTop="17" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbSearch.cs" caret="1584" fromTop="33" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:PageFetcher.cs" caret="1327" fromTop="26" />
+      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:ImdbSearchTest.cs" caret="2374" fromTop="40" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:PageFetcher.cs" caret="1896" fromTop="42" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="public" priority="1659" />
-      <Item value="HtmlAgilityPack" priority="159" />
-      <Item value="HtmlNodeCollection`0" priority="26" />
-      <Item value="string" priority="1119" />
-      <Item value="var" priority="95" />
+      <Item value="public" priority="1979" />
+      <Item value="HtmlAgilityPack" priority="223" />
+      <Item value="HtmlNodeCollection`0" priority="53" />
+      <Item value="string" priority="1407" />
+      <Item value="var" priority="415" />
       <Item value="bool" priority="31" />
       <Item value="if" priority="415" />
-      <Item value="url" priority="223" />
+      <Item value="url" priority="255" />
       <Item value="Exceptions" priority="63" />
       <Item value="System" priority="127" />
       <Item value="Exception`0" priority="139" />
@@ -70,25 +56,25 @@
       <Item value="message" priority="127" />
       <Item value="ValidateUrl`0" priority="63" />
       <Item value="throw" priority="223" />
-      <Item value="new" priority="287" />
+      <Item value="new" priority="319" />
       <Item value="InvalidImdbUrl" priority="28" />
       <Item value="CheckNetConnection`0" priority="31" />
       <Item value="ConnectionFailedException`0" priority="31" />
       <Item value="hweb" priority="63" />
-      <Item value="HtmlDocument`0" priority="53" />
+      <Item value="HtmlDocument`0" priority="112" />
       <Item value="try" priority="31" />
       <Item value="doc" priority="63" />
       <Item value="we" priority="31" />
-      <Item value="return" priority="159" />
+      <Item value="return" priority="223" />
       <Item value="Fetcher`0" priority="159" />
       <Item value="FilmFetcher`0" priority="159" />
       <Item value="GetPage`0" priority="63" />
-      <Item value="page" priority="95" />
+      <Item value="page" priority="255" />
       <Item value="class" priority="123" />
       <Item value="HtmlNode`0" priority="26" />
       <Item value="virtual" priority="671" />
       <Item value="String`0" priority="31" />
-      <Item value="IList" priority="159" />
+      <Item value="IList" priority="191" />
       <Item value="GetHashCode`0" priority="63" />
       <Item value="AppDomainSetup`0" priority="31" />
       <Item value="FilmGenre`0" priority="31" />
@@ -96,27 +82,27 @@
       <Item value="Film`0" priority="31" />
       <Item value="Directors" priority="31" />
       <Item value="DefaultableList&lt;Person&gt;" priority="28" />
-      <Item value="private" priority="63" />
+      <Item value="private" priority="127" />
       <Item value="void" priority="63" />
-      <Item value="static" priority="158" />
+      <Item value="static" priority="286" />
       <Item value="Search`0" priority="63" />
       <Item value="PassTestUrlExpression" priority="31" />
       <Item value="passExpression" priority="63" />
       <Item value="FailTestUrlExpression" priority="31" />
       <Item value="failExpression" priority="127" />
       <Item value="Url" priority="223" />
-      <Item value="null" priority="127" />
+      <Item value="null" priority="191" />
       <Item value="urlValidationExpression" priority="95" />
       <Item value="ArgumentNullException" priority="58" />
       <Item value="else" priority="95" />
       <Item value="FetcherBuildFailedException" priority="29" />
       <Item value="Assert`0" priority="63" />
-      <Item value="target" priority="31" />
+      <Item value="target" priority="159" />
       <Item value="t" priority="31" />
       <Item value="Regex`0" priority="63" />
-      <Item value="true" priority="63" />
+      <Item value="true" priority="95" />
       <Item value="false" priority="31" />
-      <Item value="title" priority="95" />
+      <Item value="title" priority="159" />
       <Item value="ArgumentException" priority="28" />
       <Item value="InvalidUrl`0" priority="31" />
       <Item value="Exception" priority="30" />
@@ -124,7 +110,29 @@
       <Item value="ImdbSearch" priority="28" />
       <Item value="abstract" priority="61" />
       <Item value="Film" priority="32" />
-      <Item value="Result`0" priority="31" />
+      <Item value="Result`0" priority="63" />
+      <Item value="override" priority="31" />
+      <Item value="Find`0" priority="63" />
+      <Item value="PageFetcher`0" priority="95" />
+      <Item value="FilmTitle" priority="95" />
+      <Item value="Enum`0" priority="31" />
+      <Item value="enum" priority="31" />
+      <Item value="ImdbSortType`0" priority="95" />
+      <Item value="ImdbSearch`0" priority="31" />
+      <Item value="moviemeter" priority="50" />
+      <Item value="ImdbAssendingDescending`0" priority="31" />
+      <Item value="Assending" priority="32" />
+      <Item value="Ascending" priority="31" />
+      <Item value="SortBy" priority="31" />
+      <Item value="Results" priority="31" />
+      <Item value="actual" priority="32" />
+      <Item value="Page" priority="63" />
+      <Item value="for" priority="31" />
+      <Item value="HtmlNodeCollection" priority="28" />
+      <Item value="f" priority="31" />
+      <Item value="node" priority="31" />
+      <Item value="s" priority="31" />
+      <Item value="source" priority="31" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Text.RegularExpressions.Regex">
       <Item value="IsMatch`0" priority="54" />
@@ -142,10 +150,35 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:HtmlAgilityPack.HtmlDocument">
       <Item value="ToString`0" priority="26" />
+      <Item value="DocumentNode" priority="80" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
       <Item value="IsNullOrEmpty`0" priority="26" />
       <Item value="IsNullOrWhiteSpace`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Komodo.Scraper.Fetcher.PageFetcher">
+      <Item value="GetPage`0" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Komodo.Scraper.IMDB.ImdbSearch">
+      <Item value="ImdbSortType`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Komodo.Scraper.IMDB.ImdbSearch+ImdbSortType">
+      <Item value="moviemeter" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Komodo.Scraper.IMDB.ImdbSearch">
+      <Item value="Results" priority="26" />
+      <Item value="Page" priority="53" />
+      <Item value="s" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HtmlAgilityPack.HtmlNode">
+      <Item value="SelectNodes`0" priority="53" />
+      <Item value="SelectSingleNode`0" priority="26" />
+      <Item value="InnerText" priority="53" />
+      <Item value="FirstChild" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HtmlAgilityPack.HtmlNodeCollection">
+      <Item value="Add`0" priority="26" />
+      <Item value="Nodes`0" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <NAntValidationSettings>
@@ -170,9 +203,8 @@
     <Session>
       <Name>Session #1</Name>
       <Elements>
-        <UnitTestElement Provider="MSTest" Id="Komodo.UnitTest.PageFetcherTest" type="MsTestTestClassElement" TypeName="Komodo.UnitTest.PageFetcherTest" Project="AA0BD276-D742-4DBB-A777-043BF42FC72E" />
-        <UnitTestElement Provider="MSTest" Id="Komodo.UnitTest.PageFetcherTest.PageFetcherConstructorTest" ParentId="Komodo.UnitTest.PageFetcherTest" type="MsTestTestMethodElement" MethodName="PageFetcherConstructorTest" Project="AA0BD276-D742-4DBB-A777-043BF42FC72E" />
-        <UnitTestElement Provider="MSTest" Id="Komodo.UnitTest.PageFetcherTest.PageFetcherConstructorTest2" ParentId="Komodo.UnitTest.PageFetcherTest" type="MsTestTestMethodElement" MethodName="PageFetcherConstructorTest2" Project="AA0BD276-D742-4DBB-A777-043BF42FC72E" />
+        <UnitTestElement Provider="MSTest" Id="Komodo.UnitTest.ImdbSearchTest" type="MsTestTestClassElement" TypeName="Komodo.UnitTest.ImdbSearchTest" Project="AA0BD276-D742-4DBB-A777-043BF42FC72E" />
+        <UnitTestElement Provider="MSTest" Id="Komodo.UnitTest.ImdbSearchTest.FindTest" ParentId="Komodo.UnitTest.ImdbSearchTest" type="MsTestTestMethodElement" MethodName="FindTest" Project="AA0BD276-D742-4DBB-A777-043BF42FC72E" />
       </Elements>
     </Session>
   </UnitTestSessions>

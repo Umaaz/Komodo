@@ -1,19 +1,22 @@
-﻿using Komodo.Scraper.Fetcher;
-using Komodo.Scraper.IMDB;
+﻿using Komodo.Scraper.IMDB;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using Komodo.Scraper.Fetcher;
+using System.Collections.Generic;
 
 namespace Komodo.UnitTest
 {
     
     
     /// <summary>
-    ///This is a test class for PageFetcherTest and is intended
-    ///to contain all PageFetcherTest Unit Tests
+    ///This is a test class for ImdbSearchTest and is intended
+    ///to contain all ImdbSearchTest Unit Tests
     ///</summary>
     [TestClass()]
-    public class PageFetcherTest
+    public class ImdbSearchTest
     {
+
+
         private TestContext testContextInstance;
 
         /// <summary>
@@ -64,21 +67,20 @@ namespace Komodo.UnitTest
 
 
         /// <summary>
-        ///A test for PageFetcher Constructor
+        ///A test for Find
         ///</summary>
         [TestMethod()]
-        public void PageFetcherConstructorTest()
+        public void FindTest()
         {
-            var url = "http://www.google.com"; 
-            var target = PageFetcher.GetPage(url);
-            Assert.IsNotNull(target);
-        }
-        [TestMethod()]
-        public void PageFetcherConstructorTest2()
-        {
-            var url = "www.google.com";
-            var target = PageFetcher.GetPage(url);
-            Assert.IsNotNull(target);
+            var title = "Matrix"; // TODO: Initialize to an appropriate value
+            var target = new ImdbSearch(title); // TODO: Initialize to an appropriate value
+            IList<Result> expected = null; // TODO: Initialize to an appropriate value
+            var actual = target.Results;
+            var pp = target.Page;
+            var p = target.f;
+            var s = target.s;
+            Assert.AreEqual(expected, actual);
+            Assert.Inconclusive("Verify the correctness of this test method.");
         }
     }
 }

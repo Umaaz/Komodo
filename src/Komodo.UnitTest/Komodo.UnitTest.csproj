@@ -49,6 +49,7 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ImdbSearchTest.cs" />
     <Compile Include="PageFetcherTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -57,7 +58,7 @@
       <Project>{D8CF14F4-4F06-4AA4-90FB-32680FB86AEA}</Project>
       <Name>Komodo.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Komodo\Komodo.Scraper.csproj">
+    <ProjectReference Include="..\Komodo.Scraper\Komodo.Scraper.csproj">
       <Project>{00341E1C-8A62-44EF-82F7-A1CB346BE4AB}</Project>
       <Name>Komodo.Scraper</Name>
     </ProjectReference>
