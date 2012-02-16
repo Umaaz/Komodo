@@ -6,7 +6,7 @@ namespace Komodo.Scraper.StringManipulation
     public static class Extractor
     {
         //expression = title=\"{X}\" date=\"{X}\"
-        //value = title=Matrix date="2003"
+        //value = title="Matrix" date="2003"
         //return {Matrix, 2003}
         public static string[] Extract(string expression, string value)
         {

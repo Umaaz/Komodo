@@ -61,7 +61,7 @@ namespace Komodo.Scraper.IMDB
             var holdString = resultsAsString.Remove(resultsAsString.IndexOf("</a>"));
             holdString = holdString.Remove(0, holdString.IndexOf("<a href"));
             var items = Extractor.Extract("<a href=\"/title/{X}/\" title=\"{X}({X})\"><img src=\"{X}\"", holdString);
-            return new ImdbResult(HtmlEscapeCharConverter.Decode(items[1]),items[0],items[2],items[3]);
+            return new ImdbResult(HtmlEscapeCharConverter.Decode(items[1]),Constants.ImdbFilmPrefixUrl + items[0],items[2],items[3]);
         }
     }
 }
