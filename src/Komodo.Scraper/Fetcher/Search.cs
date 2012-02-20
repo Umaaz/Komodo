@@ -12,6 +12,6 @@ namespace Komodo.Scraper.Fetcher
             Results = new List<Result>();
         }
 
-        public abstract void Find();
+        protected abstract void Find();
     }
 }

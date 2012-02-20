@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d8ff2613-4562-470c-9ae6-69fa8533d54e" name="Ben@BEN_VIRTUAL_DEV 2012-02-20 21:27:05" runUser="BEN_VIRTUAL_DEV\Ben" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="6b0181d3-dd2d-46cd-994b-ee321ed33afe">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Ben_BEN_VIRTUAL_DEV 2012-02-20 21_27_05">
+      <DeploymentItem filename="C:\repo\Komodo\src\Komodo.Scraper\bin\Debug\Komodo.Scraper.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\src\Komodo.UnitTest\bin\Debug\HtmlAgilityPack.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\src\Komodo.Core\bin\Debug\Komodo.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-02-20T21:27:05.4488750+00:00" queuing="2012-02-20T21:27:07.3687969+00:00" start="2012-02-20T21:27:07.6158672+00:00" finish="2012-02-20T21:27:34.7291484+00:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="6" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="5" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="BEN_VIRTUAL_DEV" outcome="Error" timestamp="2012-02-20T21:27:34.7252422+00:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ExtractTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="6d077f09-6ca3-6e2d-eae3-d216b52458ae">
+      <Execution id="455e0a40-3040-4465-9bd2-c1f15fea186d" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.ExtractorTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExtractTest" />
+    </UnitTest>
+    <UnitTest name="RemoveBetweenTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="5d4a552b-88f7-bd47-acc7-682481f246a1">
+      <Execution id="bd447a0a-6653-4e39-b882-8d9e33954a3c" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.ExtractorTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveBetweenTest" />
+    </UnitTest>
+    <UnitTest name="FindTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="7d476f30-8159-b3a9-f40f-e32dd9377670">
+      <Execution id="73fd3801-fef7-46eb-ad6f-7f844446c956" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.ImdbSearchTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindTest" />
+    </UnitTest>
+    <UnitTest name="PageFetcherConstructorTest2" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="8044c806-f243-b38b-b211-feeca9dea3ea">
+      <Execution id="85a97192-ef7d-4527-ac5a-6e76999afb5b" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.PageFetcherTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PageFetcherConstructorTest2" />
+    </UnitTest>
+    <UnitTest name="PageFetcherConstructorTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="f44a4466-4518-c384-6e24-36ad2220a8c2">
+      <Execution id="6470cfad-039c-4baf-bb8f-733613910f5b" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.PageFetcherTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PageFetcherConstructorTest" />
+    </UnitTest>
+    <UnitTest name="GetFilmFromImdbTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="19290635-014b-0d9b-45f3-5f09e1f1fa4a">
+      <Execution id="883359cc-007a-4ed8-93f6-3ab33735cfcb" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.FilmFetcherTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFilmFromImdbTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="19290635-014b-0d9b-45f3-5f09e1f1fa4a" executionId="883359cc-007a-4ed8-93f6-3ab33735cfcb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d4a552b-88f7-bd47-acc7-682481f246a1" executionId="bd447a0a-6653-4e39-b882-8d9e33954a3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d077f09-6ca3-6e2d-eae3-d216b52458ae" executionId="455e0a40-3040-4465-9bd2-c1f15fea186d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d476f30-8159-b3a9-f40f-e32dd9377670" executionId="73fd3801-fef7-46eb-ad6f-7f844446c956" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8044c806-f243-b38b-b211-feeca9dea3ea" executionId="85a97192-ef7d-4527-ac5a-6e76999afb5b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f44a4466-4518-c384-6e24-36ad2220a8c2" executionId="6470cfad-039c-4baf-bb8f-733613910f5b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="883359cc-007a-4ed8-93f6-3ab33735cfcb" testId="19290635-014b-0d9b-45f3-5f09e1f1fa4a" testName="GetFilmFromImdbTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:26.9013672" startTime="2012-02-20T21:27:07.8268047+00:00" endTime="2012-02-20T21:27:34.7281719+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="883359cc-007a-4ed8-93f6-3ab33735cfcb">
+    </UnitTestResult>
+    <UnitTestResult executionId="bd447a0a-6653-4e39-b882-8d9e33954a3c" testId="5d4a552b-88f7-bd47-acc7-682481f246a1" testName="RemoveBetweenTest" computerName="BEN_VIRTUAL_DEV" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd447a0a-6653-4e39-b882-8d9e33954a3c">
+    </UnitTestResult>
+    <UnitTestResult executionId="455e0a40-3040-4465-9bd2-c1f15fea186d" testId="6d077f09-6ca3-6e2d-eae3-d216b52458ae" testName="ExtractTest" computerName="BEN_VIRTUAL_DEV" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="455e0a40-3040-4465-9bd2-c1f15fea186d">
+    </UnitTestResult>
+    <UnitTestResult executionId="73fd3801-fef7-46eb-ad6f-7f844446c956" testId="7d476f30-8159-b3a9-f40f-e32dd9377670" testName="FindTest" computerName="BEN_VIRTUAL_DEV" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73fd3801-fef7-46eb-ad6f-7f844446c956">
+    </UnitTestResult>
+    <UnitTestResult executionId="85a97192-ef7d-4527-ac5a-6e76999afb5b" testId="8044c806-f243-b38b-b211-feeca9dea3ea" testName="PageFetcherConstructorTest2" computerName="BEN_VIRTUAL_DEV" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85a97192-ef7d-4527-ac5a-6e76999afb5b">
+    </UnitTestResult>
+    <UnitTestResult executionId="6470cfad-039c-4baf-bb8f-733613910f5b" testId="f44a4466-4518-c384-6e24-36ad2220a8c2" testName="PageFetcherConstructorTest" computerName="BEN_VIRTUAL_DEV" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6470cfad-039c-4baf-bb8f-733613910f5b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

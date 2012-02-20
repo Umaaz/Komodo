@@ -1,6 +1,5 @@
 ﻿using Komodo.Scraper.StringManipulation;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 
 namespace Komodo.UnitTest
 {
@@ -76,6 +75,21 @@ namespace Komodo.UnitTest
             string[] actual, actual2;
             actual = Extractor.Extract(expression, value);
             Assert.AreEqual(expected.ToString(),actual.ToString());
+        }
+
+        /// <summary>
+        ///A test for RemoveBetween
+        ///</summary>
+        [TestMethod()]
+        public void RemoveBetweenTest()
+        {
+            char delimiterStart = '('; 
+            char delimiterEnd = ')'; 
+            string value = "this is (not) a test"; 
+            string expected = "this is a test"; 
+            string actual;
+            actual = Extractor.RemoveBetween(delimiterStart, delimiterEnd, value);
+            Assert.AreEqual(expected, actual);
         }
     }
 }

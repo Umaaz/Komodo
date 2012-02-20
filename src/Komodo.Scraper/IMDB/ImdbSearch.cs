@@ -37,7 +37,7 @@ namespace Komodo.Scraper.IMDB
             Find();
         }
 
-        public override void Find()
+        protected override void Find()
         {
             var source = PageFetcher.GetSource("http://www.imdb.com/search/title?sort=" + SortBy + "," + (Ascending ? "asc" : "desc") + "&title=" + FilmTitle.Replace(" ","%20") + "&title_type=feature,tv_movie");
             var resultsAsStrings = new List<string>();

@@ -43,6 +43,7 @@
     <Compile Include="IMDB\Constants.cs" />
     <Compile Include="Fetcher\FilmFetcher.cs" />
     <Compile Include="Fetcher\PageFetcher.cs" />
+    <Compile Include="IMDB\ImdbFilmFetcher.cs" />
     <Compile Include="IMDB\ImdbSearch.cs" />
     <Compile Include="IMDB\Types\ImdbResult.cs" />
     <Compile Include="Net\Checker.cs" />
