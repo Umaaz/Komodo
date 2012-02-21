@@ -2,4 +2,5 @@
   <Module PersistentId="00341E1C-8A62-44EF-82F7-A1CB346BE4AB" ModuleId="Komodo" />
   <Module PersistentId="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA" ModuleId="Komodo.Core" />
   <Module PersistentId="AA0BD276-D742-4DBB-A777-043BF42FC72E" ModuleId="Komodo.UnitTest" />
+  <Module PersistentId="DB05F86B-3C10-4437-8AC8-769564460828" ModuleId="Komodo.DatabaseBuilder" />
 </Modules>

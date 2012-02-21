@@ -19,21 +19,13 @@
       <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:StringManipulation/f:Extractor.cs" caret="2382" fromTop="26" />
       <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbFilmFetcher.cs" caret="2666" fromTop="19" />
       <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbSearch.cs" caret="1838" fromTop="17" />
-      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:FilmFetcherTest.cs" caret="1926" fromTop="15" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:Program.cs" caret="0" fromTop="0" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:FrmMain.Designer.cs" caret="0" fromTop="0" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:FrmMain.cs" caret="537" fromTop="19" />
+      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:FilmFetcherTest.cs" caret="2329" fromTop="24" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="724" fromTop="16" />
     </RecentFiles>
     <RecentEdits>
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:FilmFetcher.cs" caret="48" fromTop="1" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:FilmFetcher.cs" caret="802" fromTop="28" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbFilmFetcher.cs" caret="4974" fromTop="19" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:StringManipulation/f:Extractor.cs" caret="3508" fromTop="34" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:StringManipulation/f:Extractor.cs" caret="3469" fromTop="29" />
-      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:ExtractorTest.cs" caret="93" fromTop="1" />
-      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:ExtractorTest.cs" caret="3022" fromTop="35" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:StringManipulation/f:Extractor.cs" caret="1006" fromTop="22" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbFilmFetcher.cs" caret="4974" fromTop="24" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:StringManipulation/f:Extractor.cs" caret="1679" fromTop="32" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbFilmFetcher.cs" caret="6106" fromTop="20" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbFilmFetcher.cs" caret="6927" fromTop="19" />
       <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbFilmFetcher.cs" caret="4974" fromTop="31" />
       <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbFilmFetcher.cs" caret="3618" fromTop="25" />
       <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbFilmFetcher.cs" caret="3618" fromTop="22" />
@@ -52,17 +44,29 @@
       <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbFilmFetcher.cs" caret="2329" fromTop="14" />
       <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbFilmFetcher.cs" caret="3088" fromTop="28" />
       <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:StringManipulation/f:Extractor.cs" caret="2382" fromTop="26" />
+      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:FilmFetcherTest.cs" caret="2329" fromTop="24" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:FrmMain.cs" caret="13" fromTop="0" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:FrmMain.cs" caret="150" fromTop="5" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:FrmMain.cs" caret="5930" fromTop="17" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:FrmMain.cs" caret="588" fromTop="19" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:FrmMain.cs" caret="611" fromTop="19" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="71" fromTop="2" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="1203" fromTop="20" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="499" fromTop="13" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="324" fromTop="11" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="1237" fromTop="23" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="303" fromTop="11" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="public" priority="2267" />
+      <Item value="public" priority="2299" />
       <Item value="HtmlAgilityPack" priority="223" />
       <Item value="HtmlNodeCollection`0" priority="53" />
-      <Item value="string" priority="2463" />
-      <Item value="var" priority="1759" />
+      <Item value="string" priority="2686" />
+      <Item value="var" priority="1855" />
       <Item value="bool" priority="63" />
-      <Item value="if" priority="927" />
+      <Item value="if" priority="1023" />
       <Item value="url" priority="255" />
       <Item value="Exceptions" priority="63" />
       <Item value="System" priority="127" />
@@ -72,7 +76,7 @@
       <Item value="message" priority="127" />
       <Item value="ValidateUrl`0" priority="63" />
       <Item value="throw" priority="479" />
-      <Item value="new" priority="1215" />
+      <Item value="new" priority="1343" />
       <Item value="InvalidImdbUrl" priority="28" />
       <Item value="CheckNetConnection`0" priority="31" />
       <Item value="ConnectionFailedException`0" priority="31" />
@@ -81,7 +85,7 @@
       <Item value="try" priority="63" />
       <Item value="doc" priority="63" />
       <Item value="we" priority="31" />
-      <Item value="return" priority="959" />
+      <Item value="return" priority="1023" />
       <Item value="Fetcher`0" priority="159" />
       <Item value="FilmFetcher`0" priority="191" />
       <Item value="GetPage`0" priority="63" />
@@ -99,7 +103,7 @@
       <Item value="Directors" priority="31" />
       <Item value="DefaultableList&lt;Person&gt;" priority="28" />
       <Item value="private" priority="415" />
-      <Item value="void" priority="95" />
+      <Item value="void" priority="127" />
       <Item value="static" priority="606" />
       <Item value="Search`0" priority="95" />
       <Item value="PassTestUrlExpression" priority="31" />
@@ -115,7 +119,7 @@
       <Item value="Assert`0" priority="95" />
       <Item value="target" priority="159" />
       <Item value="t" priority="31" />
-      <Item value="Regex`0" priority="575" />
+      <Item value="Regex`0" priority="767" />
       <Item value="true" priority="127" />
       <Item value="false" priority="31" />
       <Item value="title" priority="223" />
@@ -147,11 +151,11 @@
       <Item value="HtmlNodeCollection" priority="28" />
       <Item value="f" priority="127" />
       <Item value="node" priority="31" />
-      <Item value="s" priority="319" />
+      <Item value="s" priority="415" />
       <Item value="source" priority="255" />
-      <Item value="List" priority="583" />
-      <Item value="List&lt;string&gt;" priority="57" />
-      <Item value="foreach" priority="255" />
+      <Item value="List" priority="644" />
+      <Item value="List&lt;string&gt;" priority="115" />
+      <Item value="foreach" priority="383" />
       <Item value="resultsAsStrings" priority="63" />
       <Item value="resultsAsString" priority="255" />
       <Item value="IMDB" priority="31" />
@@ -218,16 +222,16 @@
       <Item value="KeyWord`0" priority="95" />
       <Item value="keywords" priority="95" />
       <Item value="keyWordSource" priority="191" />
-      <Item value="x" priority="63" />
+      <Item value="x" priority="575" />
       <Item value="KeyWord" priority="57" />
       <Item value="Word" priority="63" />
       <Item value="bit" priority="447" />
       <Item value="continue" priority="31" />
       <Item value="p" priority="193" />
-      <Item value="RegexOptions`0" priority="63" />
+      <Item value="RegexOptions`0" priority="255" />
       <Item value="GenreName" priority="31" />
-      <Item value="Where`1" priority="53" />
-      <Item value="ToList`1" priority="26" />
+      <Item value="Where`1" priority="80" />
+      <Item value="ToList`1" priority="53" />
       <Item value="Role`0" priority="63" />
       <Item value="cast" priority="95" />
       <Item value="castSource" priority="31" />
@@ -240,13 +244,29 @@
       <Item value="actorBit" priority="127" />
       <Item value="DivideByZeroException`0" priority="31" />
       <Item value="characterBit" priority="255" />
+      <Item value="FolderBrowserDialog`0" priority="31" />
+      <Item value="FolderBrowserDialog" priority="28" />
+      <Item value="fbd" priority="95" />
+      <Item value="this" priority="31" />
+      <Item value="OK" priority="16" />
+      <Item value="txtBrowse" priority="31" />
+      <Item value="path" priority="95" />
+      <Item value="allfiles" priority="31" />
+      <Item value="allfile" priority="63" />
+      <Item value="files" priority="159" />
+      <Item value="SearchOption`0" priority="95" />
+      <Item value="Select`2" priority="53" />
+      <Item value="Directory`0" priority="95" />
+      <Item value="ds" priority="63" />
+      <Item value="Union`1" priority="26" />
+      <Item value="searchOption" priority="31" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Text.RegularExpressions.Regex">
-      <Item value="IsMatch`0" priority="270" />
+      <Item value="IsMatch`0" priority="405" />
       <Item value="Match`0" priority="53" />
       <Item value="Split`0" priority="161" />
       <Item value="Unescape`0" priority="26" />
-      <Item value="Replace`0" priority="80" />
+      <Item value="Replace`0" priority="161" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:HtmlAgilityPack.HtmlWeb">
       <Item value="Load`0" priority="26" />
@@ -293,20 +313,26 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
       <Item value="Split`0" priority="107" />
-      <Item value="Contains`0" priority="323" />
-      <Item value="Remove`0" priority="809" />
-      <Item value="IndexOf`0" priority="971" />
-      <Item value="Trim`0" priority="80" />
+      <Item value="Contains`0" priority="406" />
+      <Item value="Remove`0" priority="863" />
+      <Item value="IndexOf`0" priority="998" />
+      <Item value="Trim`0" priority="107" />
       <Item value="Replace`0" priority="134" />
-      <Item value="LastIndexOf`0" priority="26" />
+      <Item value="LastIndexOf`0" priority="53" />
       <Item value="Substring`0" priority="53" />
+      <Item value="Where`1" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
       <Item value="AddRange`0" priority="26" />
       <Item value="ToArray`0" priority="26" />
-      <Item value="Add`0" priority="301" />
+      <Item value="Add`0" priority="356" />
       <Item value="Remove`0" priority="26" />
       <Item value="Count" priority="54" />
+      <Item value="Union`1" priority="54" />
+      <Item value="ToList`1" priority="26" />
+      <Item value="Aggregate`1" priority="26" />
+      <Item value="Sort`0" priority="26" />
+      <Item value="OrderBy`2" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
       <Item value="Add`0" priority="26" />
@@ -353,15 +379,33 @@
       <Item value="IsLetterOrDigit`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Text.RegularExpressions.RegexOptions">
-      <Item value="IgnoreCase" priority="53" />
+      <Item value="IgnoreCase" priority="215" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Komodo.Scraper.IMDB.Types.ImdbResult">
       <Item value="Title" priority="26" />
       <Item value="Url" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
-      <Item value="ToList`1" priority="53" />
-      <Item value="Select`2" priority="26" />
+      <Item value="ToList`1" priority="134" />
+      <Item value="Select`2" priority="188" />
+      <Item value="Where`1" priority="26" />
+      <Item value="Distinct`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.FolderBrowserDialog">
+      <Item value="ShowDialog`0" priority="26" />
+      <Item value="SelectedPath" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="GetFiles`0" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.SearchOption">
+      <Item value="AllDirectories" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedEnumerable`1">
+      <Item value="ToList`1" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <NAntValidationSettings>
