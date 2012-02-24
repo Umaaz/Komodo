@@ -26,7 +26,7 @@ namespace Komodo.Scraper.IMDB
                 return null;
             }
             if (search.Results.Count == 0)
-                return null;
+                return new Film(){Title = title};
             //use top search
             var top = search.Results[0];
             return GetFilmFromImdbResult((ImdbResult)top);

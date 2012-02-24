@@ -70,7 +70,7 @@ namespace Komodo.UnitTest
         [TestMethod()]
         public void GetFilmFromImdbTest()
         {
-            var title = "Taxi"; // TODO: Initialize to an appropriate value
+            var title = "A Knights Tale"; // TODO: Initialize to an appropriate value
             var source = FilmFetcher.Source.Imdb; // TODO: Initialize to an appropriate value
             var target = new FilmFetcher(title, source); // TODO: Initialize to an appropriate value
             Assert.Inconclusive("A method that does not return a value cannot be verified.");

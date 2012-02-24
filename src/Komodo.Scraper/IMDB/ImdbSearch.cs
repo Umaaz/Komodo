@@ -27,7 +27,6 @@ namespace Komodo.Scraper.IMDB
         public static bool Ascending = true;
 
         public string FilmTitle { get; set; }
-        public IList<string> s { get; set; }
 
         public ImdbSearch(string title) : base(title)
         {
@@ -39,7 +38,7 @@ namespace Komodo.Scraper.IMDB
 
         protected override void Find()
         {
-            var source = PageFetcher.GetSource("http://www.imdb.com/search/title?sort=" + SortBy + "," + (Ascending ? "asc" : "desc") + "&title=" + FilmTitle.Replace(" ","%20") + "&title_type=feature,tv_movie");
+            var source = PageFetcher.GetSource("http://www.imdb.com/search/title?sort=" + SortBy + "," + (Ascending ? "asc" : "desc") + "&title=" + FilmTitle.Replace(" ","+") + "&title_type=feature,tv_movie");
             var resultsAsStrings = new List<string>();
             var firstSplit = Regex.Split(source, "<tr class=\"even detailed\">");
             for (var i = 1; i < firstSplit.Length; i++)
