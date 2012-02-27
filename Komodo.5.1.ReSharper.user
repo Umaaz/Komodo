@@ -12,16 +12,11 @@
       <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:ExtractorTest.cs" caret="1927" fromTop="44" />
       <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Net/f:Checker.cs" caret="155" fromTop="7" />
       <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:StringManipulation/f:Extractor.cs" caret="636" fromTop="15" />
-      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:Settings.cs" caret="0" fromTop="0" />
-      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Properties/f:Settings.Designer.cs" caret="0" fromTop="0" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Role.cs" caret="34" fromTop="2" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Person.cs" caret="40" fromTop="2" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:KeyWord.cs" caret="40" fromTop="2" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Genre.cs" caret="40" fromTop="2" />
       <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:FilmFetcher.cs" caret="0" fromTop="0" />
-      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="1363" fromTop="25" />
-      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:StringCollection.cs" caret="277" fromTop="8" />
-      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:FrmMain.cs" caret="995" fromTop="26" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Film.cs" caret="616" fromTop="19" />
       <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:DatabaseTest.cs" caret="676" fromTop="5" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Database.cs" caret="1933" fromTop="25" />
@@ -29,10 +24,6 @@
     <RecentEdits>
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Person.cs" caret="135" fromTop="7" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Role.cs" caret="183" fromTop="8" />
-      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="419" fromTop="9" />
-      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="714" fromTop="16" />
-      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:FrmMain.cs" caret="597" fromTop="19" />
-      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:FrmMain.cs" caret="6125" fromTop="19" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Film.cs" caret="2036" fromTop="24" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Role.cs" caret="301" fromTop="12" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Role.cs" caret="34" fromTop="2" />
@@ -40,12 +31,6 @@
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:KeyWord.cs" caret="40" fromTop="2" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Genre.cs" caret="40" fromTop="2" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Film.cs" caret="2036" fromTop="44" />
-      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="1030" fromTop="14" />
-      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="2472" fromTop="35" />
-      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="2455" fromTop="35" />
-      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="1570" fromTop="23" />
-      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="1020" fromTop="20" />
-      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:FrmMain.cs" caret="882" fromTop="24" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Film.cs" caret="616" fromTop="19" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Film.cs" caret="2036" fromTop="19" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Database.cs" caret="4550" fromTop="8" />
