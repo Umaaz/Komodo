@@ -59,7 +59,7 @@
             this.lbFiles.Name = "lbFiles";
             this.lbFiles.Size = new System.Drawing.Size(269, 433);
             this.lbFiles.TabIndex = 2;
-            this.lbFiles.SelectedIndexChanged += new System.EventHandler(this.lbFiles_SelectedIndexChanged);
+            this.lbFiles.SelectedValueChanged += new System.EventHandler(this.lbFiles_SelectedValueChanged);
             // 
             // button1
             // 

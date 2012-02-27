@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using Komodo.Core.Types;
+using Komodo.Core.Types.Model;
 using Komodo.Scraper.Exceptions;
 using Komodo.Scraper.Fetcher;
 using Komodo.Scraper.IMDB.Types;

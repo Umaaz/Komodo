@@ -1,0 +1,243 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:ExtractorTest.cs" caret="1927" fromTop="44" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Net/f:Checker.cs" caret="155" fromTop="7" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:StringManipulation/f:Extractor.cs" caret="636" fromTop="15" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:Settings.cs" caret="0" fromTop="0" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Properties/f:Settings.Designer.cs" caret="0" fromTop="0" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Role.cs" caret="34" fromTop="2" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Person.cs" caret="40" fromTop="2" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:KeyWord.cs" caret="40" fromTop="2" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Genre.cs" caret="40" fromTop="2" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Fetcher/f:FilmFetcher.cs" caret="0" fromTop="0" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="1363" fromTop="25" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:StringCollection.cs" caret="277" fromTop="8" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:FrmMain.cs" caret="995" fromTop="26" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Film.cs" caret="616" fromTop="19" />
+      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:DatabaseTest.cs" caret="676" fromTop="5" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Database.cs" caret="1933" fromTop="25" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Person.cs" caret="135" fromTop="7" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Role.cs" caret="183" fromTop="8" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="419" fromTop="9" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="714" fromTop="16" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:FrmMain.cs" caret="597" fromTop="19" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:FrmMain.cs" caret="6125" fromTop="19" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Film.cs" caret="2036" fromTop="24" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Role.cs" caret="301" fromTop="12" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Role.cs" caret="34" fromTop="2" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Person.cs" caret="40" fromTop="2" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:KeyWord.cs" caret="40" fromTop="2" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Genre.cs" caret="40" fromTop="2" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Film.cs" caret="2036" fromTop="44" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="1030" fromTop="14" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="2472" fromTop="35" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="2455" fromTop="35" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="1570" fromTop="23" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/d:Builder/f:FileFetcher.cs" caret="1020" fromTop="20" />
+      <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:FrmMain.cs" caret="882" fromTop="24" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Film.cs" caret="616" fromTop="19" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Film.cs" caret="2036" fromTop="19" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Database.cs" caret="4550" fromTop="8" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Database.cs" caret="0" fromTop="0" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Database.cs" caret="1508" fromTop="18" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Database.cs" caret="933" fromTop="17" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Database.cs" caret="1905" fromTop="34" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Database.cs" caret="600" fromTop="10" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Database.cs" caret="245" fromTop="6" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Database.cs" caret="1530" fromTop="21" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Database.cs" caret="2358" fromTop="38" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="9" />
+      <Item value="static" priority="1" />
+      <Item value="List" priority="5" />
+      <Item value="string" priority="15" />
+      <Item value="var" priority="15" />
+      <Item value="new" priority="30" />
+      <Item value="private" priority="6" />
+      <Item value="DatabaseBuilder" priority="1" />
+      <Item value="Program`0" priority="0" />
+      <Item value="Properties" priority="0" />
+      <Item value="Settings`0" priority="0" />
+      <Item value="System" priority="1" />
+      <Item value="Collections" priority="0" />
+      <Item value="Specialized" priority="0" />
+      <Item value="StringCollection`0" priority="1" />
+      <Item value="CopyTo`0" priority="0" />
+      <Item value="result" priority="1" />
+      <Item value="return" priority="4" />
+      <Item value="exts" priority="2" />
+      <Item value="Directory`0" priority="5" />
+      <Item value="ToList`1" priority="1" />
+      <Item value="foreach" priority="4" />
+      <Item value="ext" priority="4" />
+      <Item value="Aggregate`3" priority="3" />
+      <Item value="current" priority="5" />
+      <Item value="folder" priority="2" />
+      <Item value="s" priority="2" />
+      <Item value="TopDirectoryOnly" priority="2" />
+      <Item value="if" priority="2" />
+      <Item value="files" priority="1" />
+      <Item value="foldersToReturn" priority="1" />
+      <Item value="Files" priority="1" />
+      <Item value="file" priority="0" />
+      <Item value="Environment`0" priority="0" />
+      <Item value="textBox1" priority="1" />
+      <Item value="lbFiles" priority="0" />
+      <Item value="ff" priority="1" />
+      <Item value="Film`0" priority="1" />
+      <Item value="Directors" priority="0" />
+      <Item value="List&lt;Person&gt;" priority="1" />
+      <Item value="Writers" priority="0" />
+      <Item value="GenericUriParser`0" priority="0" />
+      <Item value="Genres" priority="0" />
+      <Item value="List&lt;Genre&gt;" priority="0" />
+      <Item value="Cast" priority="0" />
+      <Item value="List&lt;Role&gt;" priority="0" />
+      <Item value="KeyWords" priority="0" />
+      <Item value="List&lt;KeyWord&gt;" priority="0" />
+      <Item value="List&lt;string&gt;" priority="0" />
+      <Item value="path" priority="0" />
+      <Item value="ReferenceEquals`0" priority="0" />
+      <Item value="IgnoreCase" priority="0" />
+      <Item value="FileFetcher`0" priority="0" />
+      <Item value="void" priority="2" />
+      <Item value="int" priority="0" />
+      <Item value="FilmDataSet`0" priority="2" />
+      <Item value="FilmDataSetTableAdapters" priority="0" />
+      <Item value="FilmTableAdapter`0" priority="2" />
+      <Item value="FilmTableAdapter" priority="0" />
+      <Item value="fta" priority="2" />
+      <Item value="Film" priority="0" />
+      <Item value="DataRowBuilder" priority="1" />
+      <Item value="DataRow`0" priority="0" />
+      <Item value="const" priority="4" />
+      <Item value="SqlCeConnection" priority="0" />
+      <Item value="bool" priority="0" />
+      <Item value="false" priority="1" />
+      <Item value="File" priority="1" />
+      <Item value="IO" priority="0" />
+      <Item value="File`0" priority="0" />
+      <Item value="SqlCeConnection`0" priority="0" />
+      <Item value="cn" priority="1" />
+      <Item value="SqlCeCommand`0" priority="2" />
+      <Item value="FilmTable" priority="1" />
+      <Item value="SqlCeCommand" priority="1" />
+      <Item value="PersonTable" priority="0" />
+      <Item value="RoleTable" priority="0" />
+      <Item value="commands" priority="1" />
+      <Item value="table" priority="0" />
+      <Item value="_tables" priority="0" />
+      <Item value="sqlCeCommand" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Komodo.DatabaseBuilder.Properties.Settings">
+      <Item value="Default" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Komodo.DatabaseBuilder.Properties.Settings">
+      <Item value="Extensions" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Specialized.StringCollection">
+      <Item value="Count" priority="1" />
+      <Item value="CopyTo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Komodo.DatabaseBuilder.StringCollection">
+      <Item value="ToArray`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="GetDirectories`0" priority="0" />
+      <Item value="GetFiles`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="ToList`1" priority="0" />
+      <Item value="Union`1" priority="1" />
+      <Item value="Count" priority="0" />
+      <Item value="Add`0" priority="2" />
+      <Item value="Aggregate`3" priority="0" />
+      <Item value="Where`1" priority="0" />
+      <Item value="OrderBy`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToList`1" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="NewLine" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Komodo.DatabaseBuilder.Builder.FileFetcher">
+      <Item value="GetFoldersWithVideoFiles`0" priority="0" />
+      <Item value="GetVideoFiles`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListBox">
+      <Item value="SelectedValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Remove`0" priority="0" />
+      <Item value="LastIndexOf`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Komodo.Scraper.Fetcher.FilmFetcher">
+      <Item value="Film" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Komodo.Core.Types.Film">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.RegularExpressions.Regex">
+      <Item value="IsMatch`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedEnumerable`1">
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Komodo.Core.Types.Model.Film">
+      <Item value="Files" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Komodo.Core.FilmDataSetTableAdapters.FilmTableAdapter">
+      <Item value="GetDataBy`0" priority="0" />
+      <Item value="Fill`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Komodo.Core.FilmDataSet">
+      <Item value="FilmRow`0" priority="0" />
+      <Item value="FilmDataTable`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Komodo.Core.FilmDataSet+FilmDataTable">
+      <Item value="GetDataTableSchema`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Exists`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlServerCe.SqlCeConnection">
+      <Item value="Open`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlServerCe.SqlCeCommand">
+      <Item value="ExecuteNonQuery`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

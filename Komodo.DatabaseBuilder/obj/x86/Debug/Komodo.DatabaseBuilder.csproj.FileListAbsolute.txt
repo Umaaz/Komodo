@@ -1,9 +1,0 @@
-C:\repo\Komodo\Komodo.DatabaseBuilder\bin\Debug\Komodo.DatabaseBuilder.exe
-C:\repo\Komodo\Komodo.DatabaseBuilder\bin\Debug\Komodo.DatabaseBuilder.pdb
-C:\repo\Komodo\Komodo.DatabaseBuilder\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\repo\Komodo\Komodo.DatabaseBuilder\obj\x86\Debug\Komodo.DatabaseBuilder.FrmMain.resources
-C:\repo\Komodo\Komodo.DatabaseBuilder\obj\x86\Debug\Komodo.DatabaseBuilder.Properties.Resources.resources
-C:\repo\Komodo\Komodo.DatabaseBuilder\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\repo\Komodo\Komodo.DatabaseBuilder\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\repo\Komodo\Komodo.DatabaseBuilder\obj\x86\Debug\Komodo.DatabaseBuilder.exe
-C:\repo\Komodo\Komodo.DatabaseBuilder\obj\x86\Debug\Komodo.DatabaseBuilder.pdb
