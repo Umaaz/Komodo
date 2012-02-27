@@ -54,7 +54,7 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DatabaseTest.cs" />
+    <Compile Include="CommandsTest.cs" />
     <Compile Include="ExtractorTest.cs" />
     <Compile Include="FilmFetcherTest.cs" />
     <Compile Include="ImdbSearchTest.cs" />

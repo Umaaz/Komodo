@@ -81,11 +81,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\src\Komodo.Core\Komodo.Core.csproj">
+    <ProjectReference Include="..\Komodo.Core\Komodo.Core.csproj">
       <Project>{D8CF14F4-4F06-4AA4-90FB-32680FB86AEA}</Project>
       <Name>Komodo.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\src\Komodo.Scraper\Komodo.Scraper.csproj">
+    <ProjectReference Include="..\Komodo.Scraper\Komodo.Scraper.csproj">
       <Project>{00341E1C-8A62-44EF-82F7-A1CB346BE4AB}</Project>
       <Name>Komodo.Scraper</Name>
     </ProjectReference>

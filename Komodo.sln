@@ -14,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Komodo.UnitTest", "src\Komo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Komodo.Scraper", "src\Komodo.Scraper\Komodo.Scraper.csproj", "{00341E1C-8A62-44EF-82F7-A1CB346BE4AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Komodo.DatabaseBuilder", "Komodo.DatabaseBuilder\Komodo.DatabaseBuilder.csproj", "{DB05F86B-3C10-4437-8AC8-769564460828}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Komodo.DatabaseBuilder", "src\Komodo.DatabaseBuilder\Komodo.DatabaseBuilder.csproj", "{DB05F86B-3C10-4437-8AC8-769564460828}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution

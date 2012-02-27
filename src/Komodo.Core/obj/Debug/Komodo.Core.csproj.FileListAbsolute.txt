@@ -24,3 +24,4 @@ C:\repo\Komodo\Komodo\src\Komodo.Core\obj\Debug\Komodo.Core.dll
 C:\repo\Komodo\Komodo\src\Komodo.Core\obj\Debug\Komodo.Core.pdb
 C:\repo\Komodo\Komodo\src\Komodo.Core\bin\Debug\Film.sdf
 C:\repo\Komodo\Komodo\src\Komodo.Core\bin\Debug\Komodo.Core.dll.config
+C:\repo\Komodo\src\Komodo.Core\bin\Debug\Komodo.Core.dll.config

@@ -72,8 +72,7 @@ namespace Komodo.UnitTest
             string expression = "<a href=\"/title/{X}/\" title=\"{X}({X})\"><img src=\"{X}\" height=\"[0-9]*\" width=\"[0-9]*\" alt=\"[^\"]*\" title=\"[^\"]*\"></a>";
             string value = "<a href=\"/title/tt0133093/\" title=\"The Matrix (1999)\"><img src=\"http://ia.media-imdb.com/images/M/MV5BMjEzNjg1NTg2NV5BMl5BanBnXkFtZTYwNjY3MzQ5._V1._SX54_CR0,0,54,74_.jpg\" height=\"74\" width=\"54\" alt=\"The Matrix (1999)\" title=\"The Matrix (1999)\"></a>";
             string[] expected = {"tt0133093","The Matrix","1999","http://ia.media-imdb.com/images/M/MV5BMjEzNjg1NTg2NV5BMl5BanBnXkFtZTYwNjY3MzQ5._V1._SX54_CR0,0,54,74_.jpg"};
-            string[] actual, actual2;
-            actual = Extractor.Extract(expression, value);
+            string[] actual = Extractor.Extract(expression, value);
             Assert.AreEqual(expected.ToString(),actual.ToString());
         }
 
