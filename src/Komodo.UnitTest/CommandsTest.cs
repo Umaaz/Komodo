@@ -71,12 +71,7 @@ namespace Komodo.UnitTest
         [TestMethod()]
         public void AddPersonTest()
         {
-            Database.BuildDatabase();
-            Person person = new Person(){Name = "BEN",Url = "test"}; // TODO: Initialize to an appropriate value
-            bool expected = false; // TODO: Initialize to an appropriate value
-            bool actual;
-            actual = Commands.AddPerson(person);
-            Assert.AreEqual(expected, actual);
+            
             Assert.Inconclusive("Verify the correctness of this test method.");
         }
     }

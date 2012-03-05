@@ -41,6 +41,7 @@ namespace Komodo.Scraper.IMDB
             if (parts.Count != 5)
                 return null;
             film.Title = resultToCollect.Title;
+            film.ReleaseDate = resultToCollect.Year;
             film.Url = resultToCollect.Url;
             film.Directors = GetDirectors(parts[0]);
             film.Writers = GetWriters(parts[1]);

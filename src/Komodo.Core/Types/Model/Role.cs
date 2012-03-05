@@ -4,13 +4,13 @@ namespace Komodo.Core.Types.Model
 {
     public class Role
     {
-        public Guid Id { get; set; }
-        public string CharacterName { get; set; }
-        public Person Actor { get; set; }
+        public virtual Guid Id { get; set; }
+        public virtual string CharacterName { get; set; }
+        public virtual Person Actor { get; set; }
 
         public override string ToString()
         {
-            return CharacterName + " played by " + Actor.Name;
+            return CharacterName + Actor.Name;
         }
     }
 }

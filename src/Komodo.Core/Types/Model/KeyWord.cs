@@ -4,7 +4,7 @@ namespace Komodo.Core.Types.Model
 {
     public class KeyWord
     {
-        public Guid Id { get; set; }
-        public string Word { get; set; }
+        public virtual Guid Id { get; set; }
+        public virtual string Word { get; set; }
     }
 }

@@ -6,17 +6,18 @@ namespace Komodo.Core.Types.Model
 {
     public class Film
     {
-        public Guid Id { get; set; }
-        public string Title { get; set; }
-        public IList<Person> Directors { get; set; }
-        public IList<Person> Writers { get; set; }
-        public IList<Genre> Genres { get; set; }
-        public string Synopsis { get; set; }
-        public IList<Role> Cast { get; set; }
-        public IList<KeyWord> KeyWords { get; set; }
-        public string Url { get; set; }
+        public virtual Guid Id { get; set; }
+        public virtual string Title { get; set; }
+        public virtual string Synopsis { get; set; }
+        public virtual string ReleaseDate { get; set; }
+        public virtual string Url { get; set; }
 
-        public List<string> Files { get; set; }
+        public virtual IList<Person> Directors { get; set; }
+        public virtual IList<Person> Writers { get; set; }
+        public virtual IList<Genre> Genres { get; set; }
+        public virtual IList<Role> Cast { get; set; }
+        public virtual IList<KeyWord> KeyWords { get; set; }
+        public virtual IList<string> Files { get; set; }
 
         public Film()
         {
@@ -31,6 +32,7 @@ namespace Komodo.Core.Types.Model
         public override string ToString()
         {
             return "Title: " + Title + Environment.NewLine +
+                   "ReleaseDate: " + ReleaseDate + Environment.NewLine +
                    "Directors: " + Directors.Aggregate("", (current, director) => current + (director.Name + Environment.NewLine)) + Environment.NewLine +
                    "Writers: " + Writers.Aggregate("", (current, writer) => current + (writer.Name + Environment.NewLine)) + Environment.NewLine +
                    "Genres: " + Genres.Aggregate("", (current, genre) => current + (genre.GenreName + Environment.NewLine)) + Environment.NewLine +
