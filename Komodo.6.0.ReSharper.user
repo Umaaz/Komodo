@@ -1,37 +1,64 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:FilmFetcherTest.cs" caret="2329" fromTop="24" />
       <File id="DB05F86B-3C10-4437-8AC8-769564460828/f:FrmMain.cs" caret="811" fromTop="19" />
       <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:ExtractorTest.cs" caret="2101" fromTop="14" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbFilmFetcher.cs" caret="1419" fromTop="28" />
-      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:IndexerTest.cs" caret="2280" fromTop="18" />
       <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:CommandsTest.cs" caret="1960" fromTop="20" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/f:packages.config" caret="98" fromTop="2" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Mappings/d:Conventions/f:TableNameConventions.cs" caret="0" fromTop="0" />
-      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="842" fromTop="20" />
-      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Person.cs" caret="0" fromTop="0" />
-      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Mappings/f:PersonMap.cs" caret="365" fromTop="15" />
-      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Mappings/f:RoleMap.cs" caret="0" fromTop="0" />
-      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Mappings/f:KeywordMap.cs" caret="0" fromTop="0" />
-      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Mappings/f:GenreMap.cs" caret="0" fromTop="0" />
-      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Mappings/f:FilmMap.cs" caret="850" fromTop="21" />
-      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:AddTest.cs" caret="2517" fromTop="33" />
-      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Context.cs" caret="1165" fromTop="32" />
+      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:ImdbSearchTest.cs" caret="0" fromTop="0" />
+      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:FilmFetcherTest.cs" caret="2329" fromTop="24" />
+      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:IndexerTest.cs" caret="2280" fromTop="18" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Net/f:Checker.cs" caret="655" fromTop="22" />
       <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:StringManipulation/f:Extractor.cs" caret="1124" fromTop="14" />
-      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:Net/f:Checker.cs" caret="0" fromTop="0" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Genre.cs" caret="0" fromTop="0" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:KeyWord.cs" caret="0" fromTop="0" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Role.cs" caret="0" fromTop="0" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Mappings/f:GenreMap.cs" caret="0" fromTop="0" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Mappings/f:KeywordMap.cs" caret="0" fromTop="0" />
+      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:ContextTest.cs" caret="1900" fromTop="21" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Mappings/f:PersonMap.cs" caret="300" fromTop="10" />
+      <File id="00341E1C-8A62-44EF-82F7-A1CB346BE4AB/d:IMDB/f:ImdbFilmFetcher.cs" caret="716" fromTop="7" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Mappings/f:RoleMap.cs" caret="0" fromTop="0" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Person.cs" caret="323" fromTop="13" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Index/d:Search/f:Search.cs" caret="1143" fromTop="28" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Film.cs" caret="68" fromTop="2" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Mappings/f:FilmMap.cs" caret="799" fromTop="20" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="4228" fromTop="14" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Context.cs" caret="1294" fromTop="35" />
+      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:AddTest.cs" caret="911" fromTop="10" />
     </RecentFiles>
     <RecentEdits>
-      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:CommandsTest.cs" caret="1960" fromTop="20" />
-      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:IndexerTest.cs" caret="2272" fromTop="18" />
-      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:AddTest.cs" caret="2365" fromTop="32" />
-      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:AddTest.cs" caret="2037" fromTop="21" />
-      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/f:packages.config" caret="98" fromTop="2" />
-      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Context.cs" caret="1357" fromTop="21" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Context.cs" caret="0" fromTop="0" />
       <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Context.cs" caret="647" fromTop="22" />
-      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Mappings/f:FilmMap.cs" caret="797" fromTop="20" />
-      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Context.cs" caret="885" fromTop="25" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Context.cs" caret="1343" fromTop="27" />
+      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:ContextTest.cs" caret="1945" fromTop="23" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Mappings/f:FilmMap.cs" caret="782" fromTop="20" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="436" fromTop="5" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="2636" fromTop="23" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="1318" fromTop="36" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="679" fromTop="18" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="1813" fromTop="29" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="4763" fromTop="40" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="4697" fromTop="25" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="5156" fromTop="35" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="328" fromTop="12" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="2946" fromTop="38" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="3405" fromTop="30" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="4942" fromTop="21" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="4737" fromTop="15" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="2731" fromTop="11" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="3659" fromTop="31" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="4149" fromTop="39" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="4392" fromTop="32" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="2177" fromTop="13" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="1975" fromTop="16" />
+      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:AddTest.cs" caret="2020" fromTop="19" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Types/d:Model/f:Film.cs" caret="816" fromTop="23" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Mappings/f:FilmMap.cs" caret="233" fromTop="9" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/d:Commands/f:Add.cs" caret="4598" fromTop="25" />
+      <File id="AA0BD276-D742-4DBB-A777-043BF42FC72E/f:AddTest.cs" caret="2368" fromTop="26" />
+      <File id="D8CF14F4-4F06-4AA4-90FB-32680FB86AEA/d:Database/f:Context.cs" caret="917" fromTop="26" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
@@ -39,10 +66,10 @@
       <Item value="public" priority="2939" />
       <Item value="HtmlAgilityPack" priority="223" />
       <Item value="HtmlNodeCollection`0" priority="53" />
-      <Item value="string" priority="2974" />
-      <Item value="var" priority="2431" />
-      <Item value="bool" priority="223" />
-      <Item value="if" priority="1247" />
+      <Item value="string" priority="3100" />
+      <Item value="var" priority="2847" />
+      <Item value="bool" priority="255" />
+      <Item value="if" priority="1407" />
       <Item value="url" priority="255" />
       <Item value="Exceptions" priority="63" />
       <Item value="System" priority="191" />
@@ -51,8 +78,8 @@
       <Item value="base" priority="255" />
       <Item value="message" priority="127" />
       <Item value="ValidateUrl`0" priority="63" />
-      <Item value="throw" priority="479" />
-      <Item value="new" priority="2111" />
+      <Item value="throw" priority="511" />
+      <Item value="new" priority="2303" />
       <Item value="InvalidImdbUrl" priority="28" />
       <Item value="CheckNetConnection`0" priority="31" />
       <Item value="ConnectionFailedException`0" priority="31" />
@@ -61,7 +88,7 @@
       <Item value="try" priority="63" />
       <Item value="doc" priority="127" />
       <Item value="we" priority="31" />
-      <Item value="return" priority="1535" />
+      <Item value="return" priority="1631" />
       <Item value="Fetcher`0" priority="159" />
       <Item value="FilmFetcher`0" priority="191" />
       <Item value="GetPage`0" priority="63" />
@@ -70,34 +97,34 @@
       <Item value="HtmlNode`0" priority="26" />
       <Item value="virtual" priority="703" />
       <Item value="String`0" priority="95" />
-      <Item value="IList" priority="191" />
+      <Item value="IList" priority="223" />
       <Item value="GetHashCode`0" priority="63" />
       <Item value="AppDomainSetup`0" priority="31" />
       <Item value="FilmGenre`0" priority="31" />
-      <Item value="Person`0" priority="158" />
-      <Item value="Film`0" priority="254" />
+      <Item value="Person`0" priority="284" />
+      <Item value="Film`0" priority="318" />
       <Item value="Directors" priority="31" />
       <Item value="DefaultableList&lt;Person&gt;" priority="28" />
-      <Item value="private" priority="639" />
-      <Item value="void" priority="255" />
-      <Item value="static" priority="1118" />
+      <Item value="private" priority="863" />
+      <Item value="void" priority="287" />
+      <Item value="static" priority="1278" />
       <Item value="Search`0" priority="218" />
       <Item value="PassTestUrlExpression" priority="31" />
       <Item value="passExpression" priority="63" />
       <Item value="FailTestUrlExpression" priority="31" />
       <Item value="failExpression" priority="127" />
-      <Item value="Url" priority="355" />
-      <Item value="null" priority="511" />
+      <Item value="Url" priority="388" />
+      <Item value="null" priority="543" />
       <Item value="urlValidationExpression" priority="95" />
       <Item value="ArgumentNullException" priority="58" />
       <Item value="else" priority="159" />
       <Item value="FetcherBuildFailedException" priority="29" />
-      <Item value="Assert`0" priority="95" />
+      <Item value="Assert`0" priority="127" />
       <Item value="target" priority="159" />
       <Item value="t" priority="31" />
       <Item value="Regex`0" priority="767" />
-      <Item value="true" priority="255" />
-      <Item value="false" priority="223" />
+      <Item value="true" priority="287" />
+      <Item value="false" priority="255" />
       <Item value="title" priority="223" />
       <Item value="ArgumentException" priority="28" />
       <Item value="InvalidUrl`0" priority="31" />
@@ -105,7 +132,7 @@
       <Item value="Serializable" priority="31" />
       <Item value="ImdbSearch" priority="28" />
       <Item value="abstract" priority="61" />
-      <Item value="Film" priority="126" />
+      <Item value="Film" priority="155" />
       <Item value="Result`0" priority="94" />
       <Item value="override" priority="63" />
       <Item value="Find`0" priority="63" />
@@ -131,7 +158,7 @@
       <Item value="source" priority="255" />
       <Item value="List" priority="673" />
       <Item value="List&lt;string&gt;" priority="115" />
-      <Item value="foreach" priority="543" />
+      <Item value="foreach" priority="735" />
       <Item value="resultsAsStrings" priority="63" />
       <Item value="resultsAsString" priority="255" />
       <Item value="IMDB" priority="31" />
@@ -156,7 +183,7 @@
       <Item value="items" priority="127" />
       <Item value="ExpectedExceptionBaseAttribute`0" priority="31" />
       <Item value="firstSplit" priority="95" />
-      <Item value="const" priority="127" />
+      <Item value="const" priority="159" />
       <Item value="Source`0" priority="31" />
       <Item value="Imdb" priority="33" />
       <Item value="case" priority="31" />
@@ -179,7 +206,7 @@
       <Item value="Name" priority="159" />
       <Item value="parts" priority="449" />
       <Item value="GetDirectors`0" priority="31" />
-      <Item value="film" priority="666" />
+      <Item value="film" priority="1085" />
       <Item value="protected" priority="31" />
       <Item value="WeakReference`0" priority="31" />
       <Item value="writers" priority="31" />
@@ -194,15 +221,15 @@
       <Item value="storylineSource" priority="191" />
       <Item value="ValueType`0" priority="31" />
       <Item value="Extract`0" priority="31" />
-      <Item value="Genre`0" priority="126" />
-      <Item value="KeyWord`0" priority="158" />
+      <Item value="Genre`0" priority="222" />
+      <Item value="KeyWord`0" priority="318" />
       <Item value="keywords" priority="95" />
       <Item value="keyWordSource" priority="191" />
-      <Item value="x" priority="1503" />
+      <Item value="x" priority="1759" />
       <Item value="KeyWord" priority="57" />
       <Item value="Word" priority="63" />
       <Item value="bit" priority="447" />
-      <Item value="continue" priority="31" />
+      <Item value="continue" priority="63" />
       <Item value="p" priority="193" />
       <Item value="RegexOptions`0" priority="255" />
       <Item value="GenreName" priority="31" />
@@ -212,10 +239,10 @@
       <Item value="cast" priority="95" />
       <Item value="castSource" priority="31" />
       <Item value="bits" priority="261" />
-      <Item value="Role" priority="57" />
-      <Item value="Actor" priority="63" />
+      <Item value="Role" priority="86" />
+      <Item value="Actor" priority="95" />
       <Item value="actor" priority="32" />
-      <Item value="CharacterName" priority="65" />
+      <Item value="CharacterName" priority="98" />
       <Item value="Skip`1" priority="26" />
       <Item value="actorBit" priority="127" />
       <Item value="DivideByZeroException`0" priority="31" />
@@ -246,7 +273,7 @@
       <Item value="Database" priority="80" />
       <Item value="DbInsertOptions`0" priority="31" />
       <Item value="SqlCeConnection" priority="28" />
-      <Item value="person" priority="159" />
+      <Item value="person" priority="416" />
       <Item value="cn" priority="63" />
       <Item value="command" priority="127" />
       <Item value="SqlCeCommand" priority="28" />
@@ -255,12 +282,12 @@
       <Item value="FilmDataSet`0" priority="31" />
       <Item value="Properties" priority="223" />
       <Item value="Settings`0" priority="188" />
-      <Item value="ReleaseDate" priority="31" />
+      <Item value="ReleaseDate" priority="63" />
       <Item value="Environment`0" priority="31" />
       <Item value="IdentityGenerationStrategyBuilder" priority="31" />
       <Item value="FilmMap`0" priority="31" />
-      <Item value="Id`0" priority="159" />
-      <Item value="Map`0" priority="319" />
+      <Item value="Id`0" priority="191" />
+      <Item value="Map`0" priority="351" />
       <Item value="HasMany`1" priority="127" />
       <Item value="HasManyToMany`1" priority="191" />
       <Item value="GenreMap`0" priority="31" />
@@ -271,13 +298,13 @@
       <Item value="Field" priority="144" />
       <Item value="store" priority="31" />
       <Item value="Field`0" priority="223" />
-      <Item value="role" priority="31" />
+      <Item value="role" priority="95" />
       <Item value="name" priority="31" />
       <Item value="NewField`0" priority="159" />
-      <Item value="director" priority="31" />
+      <Item value="director" priority="191" />
       <Item value="forr" priority="31" />
-      <Item value="genre" priority="31" />
-      <Item value="keyWord" priority="31" />
+      <Item value="genre" priority="159" />
+      <Item value="keyWord" priority="192" />
       <Item value="Index" priority="117" />
       <Item value="IndexWriter`0" priority="31" />
       <Item value="_writer" priority="64" />
@@ -316,16 +343,16 @@
       <Item value="Collector`0" priority="28" />
       <Item value="TopDocsCollector`0" priority="31" />
       <Item value="TopScoreDocCollector`0" priority="31" />
-      <Item value="collection" priority="126" />
+      <Item value="collection" priority="158" />
       <Item value="GetLength`0" priority="26" />
       <Item value="int" priority="32" />
       <Item value="films" priority="31" />
       <Item value="Komodo" priority="63" />
       <Item value="Core" priority="53" />
       <Item value="Context`0" priority="63" />
-      <Item value="session" priority="127" />
+      <Item value="session" priority="255" />
       <Item value="FilmValidator`0" priority="31" />
-      <Item value="mayCommit" priority="95" />
+      <Item value="mayCommit" priority="127" />
       <Item value="tx" priority="31" />
       <Item value="validator" priority="31" />
       <Item value="id" priority="31" />
@@ -334,6 +361,46 @@
       <Item value="BeLessThanOrEqualTo100`0" priority="32" />
       <Item value="FilmFetcherTest`0" priority="31" />
       <Item value="m" priority="31" />
+      <Item value="List&lt;Person&gt;" priority="28" />
+      <Item value="_personCache" priority="127" />
+      <Item value="Files" priority="32" />
+      <Item value="Synopsis" priority="32" />
+      <Item value="Title" priority="32" />
+      <Item value="filmToAdd" priority="287" />
+      <Item value="Dictionary" priority="63" />
+      <Item value="NamedParameter`0" priority="31" />
+      <Item value="GetPersonFromCache`0" priority="31" />
+      <Item value="director1" priority="31" />
+      <Item value="direct" priority="63" />
+      <Item value="_keyWords" priority="32" />
+      <Item value="Dictionary&lt;string,KeyWord&gt;" priority="28" />
+      <Item value="_genreCache" priority="31" />
+      <Item value="word" priority="31" />
+      <Item value="out" priority="31" />
+      <Item value="temp" priority="31" />
+      <Item value="_keyWordCache" priority="63" />
+      <Item value="AddToPersonCache`0" priority="95" />
+      <Item value="GetFromGenreCache`0" priority="31" />
+      <Item value="genre1" priority="63" />
+      <Item value="AddToGenreCache`0" priority="31" />
+      <Item value="GetFromKeyWordCache`0" priority="31" />
+      <Item value="keyWord1" priority="95" />
+      <Item value="AddToKeyWordCache`0" priority="31" />
+      <Item value="GetFromPersonCache`0" priority="63" />
+      <Item value="person1" priority="31" />
+      <Item value="per" priority="63" />
+      <Item value="IDictionary" priority="31" />
+      <Item value="FilterCollection`0" priority="31" />
+      <Item value="IList`0" priority="31" />
+      <Item value="cache" priority="63" />
+      <Item value="T`0" priority="31" />
+      <Item value="item1" priority="31" />
+      <Item value="FilterPersonCollection`0" priority="63" />
+      <Item value="role1" priority="129" />
+      <Item value="_session" priority="63" />
+      <Item value="act" priority="32" />
+      <Item value="Id" priority="64" />
+      <Item value="Guid" priority="28" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Text.RegularExpressions.Regex">
       <Item value="IsMatch`0" priority="405" />
@@ -346,8 +413,8 @@
       <Item value="Load`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
-      <Item value="AreEqual`1" priority="53" />
-      <Item value="IsNotNull`0" priority="26" />
+      <Item value="AreEqual`1" priority="80" />
+      <Item value="IsNotNull`0" priority="53" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Komodo.Scraper.IMDB.PageFetcher">
       <Item value="Page" priority="26" />
@@ -401,7 +468,7 @@
     <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
       <Item value="AddRange`0" priority="26" />
       <Item value="ToArray`0" priority="26" />
-      <Item value="Add`0" priority="383" />
+      <Item value="Add`0" priority="410" />
       <Item value="Remove`0" priority="26" />
       <Item value="Count" priority="54" />
       <Item value="Union`1" priority="54" />
@@ -409,9 +476,10 @@
       <Item value="Aggregate`1" priority="26" />
       <Item value="Sort`0" priority="26" />
       <Item value="OrderBy`2" priority="26" />
+      <Item value="Contains`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
-      <Item value="Add`0" priority="26" />
+      <Item value="Add`0" priority="164" />
       <Item value="Count" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Komodo.Scraper.StringManipulation.Extractor">
@@ -494,7 +562,7 @@
       <Item value="ConnectionString`0" priority="53" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Komodo.Core.Types.Model.Person">
-      <Item value="Name" priority="134" />
+      <Item value="Name" priority="458" />
       <Item value="Url" priority="80" />
       <Item value="Id" priority="26" />
       <Item value="ToString`0" priority="26" />
@@ -527,21 +595,22 @@
       <Item value="NewLine" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Komodo.Core.Types.Model.Film">
-      <Item value="ReleaseDate" priority="80" />
-      <Item value="Id" priority="80" />
-      <Item value="Title" priority="81" />
-      <Item value="Synopsis" priority="81" />
-      <Item value="KeyWords" priority="107" />
-      <Item value="Genres" priority="53" />
-      <Item value="Cast" priority="80" />
-      <Item value="Directors" priority="53" />
-      <Item value="Files" priority="107" />
-      <Item value="Writers" priority="53" />
-      <Item value="Url" priority="26" />
+      <Item value="ReleaseDate" priority="108" />
+      <Item value="Id" priority="134" />
+      <Item value="Title" priority="163" />
+      <Item value="Synopsis" priority="109" />
+      <Item value="KeyWords" priority="161" />
+      <Item value="Genres" priority="107" />
+      <Item value="Cast" priority="134" />
+      <Item value="Directors" priority="161" />
+      <Item value="Files" priority="135" />
+      <Item value="Writers" priority="134" />
+      <Item value="Url" priority="54" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Mapping.IdentityPart">
       <Item value="GeneratedBy" priority="134" />
       <Item value="UniqueKey`0" priority="26" />
+      <Item value="Unique`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Mapping.IdentityGenerationStrategyBuilder`1">
       <Item value="Guid`0" priority="134" />
@@ -549,6 +618,9 @@
     <ItemStatistics item="Qualified:FluentNHibernate.Mapping.PropertyPart">
       <Item value="Length`0" priority="242" />
       <Item value="Unique`0" priority="80" />
+      <Item value="UniqueKey`0" priority="26" />
+      <Item value="Not" priority="53" />
+      <Item value="Nullable`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Mapping.ManyToManyPart`1">
       <Item value="AsList`0" priority="161" />
@@ -557,20 +629,20 @@
       <Item value="AsBag`0" priority="27" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Mapping.CollectionCascadeExpression`1">
-      <Item value="All`0" priority="188" />
+      <Item value="All`0" priority="215" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Komodo.Core.Types.Model.Genre">
       <Item value="Id" priority="26" />
-      <Item value="GenreName" priority="53" />
+      <Item value="GenreName" priority="188" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Komodo.Core.Types.Model.KeyWord">
       <Item value="Id" priority="26" />
-      <Item value="Word" priority="53" />
+      <Item value="Word" priority="188" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Komodo.Core.Types.Model.Role">
       <Item value="Id" priority="26" />
-      <Item value="CharacterName" priority="26" />
-      <Item value="Actor" priority="26" />
+      <Item value="CharacterName" priority="54" />
+      <Item value="Actor" priority="107" />
       <Item value="ToString`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Mapping.ManyToOnePart`1">
@@ -669,6 +741,9 @@
       <Item value="BeginTransaction`0" priority="26" />
       <Item value="Save`0" priority="27" />
       <Item value="Get`0" priority="26" />
+      <Item value="Get`1" priority="26" />
+      <Item value="QueryOver`1" priority="26" />
+      <Item value="Query`1" priority="134" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:NHibernate.ITransaction">
       <Item value="Commit`0" priority="26" />
@@ -696,11 +771,24 @@
     <ItemStatistics item="Qualified:FluentNHibernate.Mapping.OneToManyPart`1">
       <Item value="AsList`0" priority="81" />
       <Item value="Cache" priority="26" />
-      <Item value="Cascade" priority="26" />
-      <Item value="Element`0" priority="26" />
+      <Item value="Cascade" priority="54" />
+      <Item value="Element`0" priority="53" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Mapping.ElementPart">
       <Item value="Type`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="SingleOrDefault`1" priority="135" />
+      <Item value="Where`1" priority="135" />
+      <Item value="ToList`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Add`0" priority="55" />
+      <Item value="TryGetValue`0" priority="54" />
+      <Item value="ContainsKey`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:">
+      <Item value="As`1" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <NAntValidationSettings>
@@ -728,12 +816,14 @@
       <Elements>
         <UnitTestElement Provider="MSTest" Id="Komodo.UnitTest.AddTest" type="MsTestTestClassElement" TypeName="Komodo.UnitTest.AddTest" Project="AA0BD276-D742-4DBB-A777-043BF42FC72E" />
         <UnitTestElement Provider="MSTest" Id="Komodo.UnitTest.CommandsTest" type="MsTestTestClassElement" TypeName="Komodo.UnitTest.CommandsTest" Project="AA0BD276-D742-4DBB-A777-043BF42FC72E" />
+        <UnitTestElement Provider="MSTest" Id="Komodo.UnitTest.ContextTest" type="MsTestTestClassElement" TypeName="Komodo.UnitTest.ContextTest" Project="AA0BD276-D742-4DBB-A777-043BF42FC72E" />
         <UnitTestElement Provider="MSTest" Id="Komodo.UnitTest.ExtractorTest" type="MsTestTestClassElement" TypeName="Komodo.UnitTest.ExtractorTest" Project="AA0BD276-D742-4DBB-A777-043BF42FC72E" />
         <UnitTestElement Provider="MSTest" Id="Komodo.UnitTest.FilmFetcherTest" type="MsTestTestClassElement" TypeName="Komodo.UnitTest.FilmFetcherTest" Project="AA0BD276-D742-4DBB-A777-043BF42FC72E" />
         <UnitTestElement Provider="MSTest" Id="Komodo.UnitTest.ImdbSearchTest" type="MsTestTestClassElement" TypeName="Komodo.UnitTest.ImdbSearchTest" Project="AA0BD276-D742-4DBB-A777-043BF42FC72E" />
         <UnitTestElement Provider="MSTest" Id="Komodo.UnitTest.IndexerTest" type="MsTestTestClassElement" TypeName="Komodo.UnitTest.IndexerTest" Project="AA0BD276-D742-4DBB-A777-043BF42FC72E" />
         <UnitTestElement Provider="MSTest" Id="Komodo.UnitTest.AddTest.AddFilmTest" ParentId="Komodo.UnitTest.AddTest" type="MsTestTestMethodElement" MethodName="AddFilmTest" Project="AA0BD276-D742-4DBB-A777-043BF42FC72E" />
         <UnitTestElement Provider="MSTest" Id="Komodo.UnitTest.CommandsTest.AddPersonTest" ParentId="Komodo.UnitTest.CommandsTest" type="MsTestTestMethodElement" MethodName="AddPersonTest" Project="AA0BD276-D742-4DBB-A777-043BF42FC72E" />
+        <UnitTestElement Provider="MSTest" Id="Komodo.UnitTest.ContextTest.BootstrapTest" ParentId="Komodo.UnitTest.ContextTest" type="MsTestTestMethodElement" MethodName="BootstrapTest" Project="AA0BD276-D742-4DBB-A777-043BF42FC72E" />
         <UnitTestElement Provider="MSTest" Id="Komodo.UnitTest.ExtractorTest.ExtractTest" ParentId="Komodo.UnitTest.ExtractorTest" type="MsTestTestMethodElement" MethodName="ExtractTest" Project="AA0BD276-D742-4DBB-A777-043BF42FC72E" />
         <UnitTestElement Provider="MSTest" Id="Komodo.UnitTest.ImdbSearchTest.FindTest" ParentId="Komodo.UnitTest.ImdbSearchTest" type="MsTestTestMethodElement" MethodName="FindTest" Project="AA0BD276-D742-4DBB-A777-043BF42FC72E" />
         <UnitTestElement Provider="MSTest" Id="Komodo.UnitTest.FilmFetcherTest.GetFilmFromImdbTest" ParentId="Komodo.UnitTest.FilmFetcherTest" type="MsTestTestMethodElement" MethodName="GetFilmFromImdbTest" Project="AA0BD276-D742-4DBB-A777-043BF42FC72E" />

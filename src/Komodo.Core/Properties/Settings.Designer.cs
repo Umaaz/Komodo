@@ -37,7 +37,7 @@ namespace Komodo.Core.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("\\Index")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Index")]
         public string IndexPath {
             get {
                 return ((string)(this["IndexPath"]));

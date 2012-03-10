@@ -6,7 +6,7 @@
       <Value Profile="(Default)">Data Source=Media.sdf</Value>
     </Setting>
     <Setting Name="IndexPath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">\Index</Value>
+      <Value Profile="(Default)">Index</Value>
     </Setting>
     <Setting Name="QueryFields" Type="System.Collections.Specialized.StringCollection" Scope="User">
       <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;

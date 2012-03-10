@@ -23,8 +23,8 @@ namespace Komodo.Core.Database
             const string dbPath = "Media.sdf";
             var configuration = Fluently.Configure()
                 .Database(MsSqlCeConfiguration.Standard.ShowSql().ConnectionString(cnxString))
-                .Mappings(m => m.FluentMappings.AddFromAssemblyOf<Film>());
-                                                     // .Conventions.AddFromAssemblyOf<Film>());
+                .Mappings(m => m.FluentMappings.AddFromAssemblyOf<Film>()
+                                .Conventions.AddFromAssemblyOf<Film>());
 
             if (!File.Exists(dbPath))
             {

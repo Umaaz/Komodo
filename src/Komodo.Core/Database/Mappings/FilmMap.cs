@@ -7,7 +7,7 @@ namespace Komodo.Core.Database.Mappings
     {
         public FilmMap()
         {
-            Id(x => x.Id).GeneratedBy.Guid();
+            Id(x => x.Id).Unique();
             Map(x => x.Title).Length(100);
             Map(x => x.Synopsis).Length(2000);
             Map(x => x.ReleaseDate).Length(4);
@@ -18,7 +18,7 @@ namespace Komodo.Core.Database.Mappings
             HasManyToMany(x => x.Genres).AsBag().Cascade.All();
             HasManyToMany(x => x.Cast).AsBag().Cascade.All();
             HasManyToMany(x => x.KeyWords).AsBag().Cascade.All();
-            HasMany(x => x.Files).AsBag().Element("File", m => m.Type<string>());
+            HasMany(x => x.Files).Element("Files");
         }
     }
 }

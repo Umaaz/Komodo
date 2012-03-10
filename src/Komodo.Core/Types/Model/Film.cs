@@ -21,6 +21,7 @@ namespace Komodo.Core.Types.Model
 
         public Film()
         {
+            Id = new Guid();
             Directors = new List<Person>();
             Writers = new List<Person>();
             Genres = new List<Genre>();

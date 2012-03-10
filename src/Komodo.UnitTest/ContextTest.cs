@@ -1,20 +1,17 @@
 ﻿using Komodo.Core.Database;
-using Komodo.Core.Database.Commands;
-using Komodo.Scraper.Fetcher;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Komodo.Core.Types.Model;
 
 namespace Komodo.UnitTest
 {
     
     
     /// <summary>
-    ///This is a test class for AddTest and is intended
-    ///to contain all AddTest Unit Tests
+    ///This is a test class for ContextTest and is intended
+    ///to contain all ContextTest Unit Tests
     ///</summary>
     [TestClass()]
-    public class AddTest
+    public class ContextTest
     {
 
 
@@ -68,18 +65,12 @@ namespace Komodo.UnitTest
 
 
         /// <summary>
-        ///A test for AddFilm
+        ///A test for Bootstrap
         ///</summary>
         [TestMethod()]
-        public void AddFilmTest()
+        public void BootstrapTest()
         {
             Context.Bootstrap();
-            var film = new FilmFetcher("Matrix").Film; // TODO: Initialize to an appropriate value
-            var expected = false; // TODO: Initialize to an appropriate value
-            var actual = Add.AddFilm(film);
-
-            var id = Komodo.Core.Database.Index.Search.Search.SearchFilm("Matrix");
-            Assert.AreNotEqual("",id[0]);
         }
     }
 }

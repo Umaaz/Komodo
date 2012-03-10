@@ -86,6 +86,7 @@
   <ItemGroup>
     <Compile Include="AddTest.cs" />
     <Compile Include="CommandsTest.cs" />
+    <Compile Include="ContextTest.cs" />
     <Compile Include="ExtractorTest.cs" />
     <Compile Include="FilmFetcherTest.cs" />
     <Compile Include="ImdbSearchTest.cs" />
