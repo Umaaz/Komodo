@@ -74,10 +74,9 @@ namespace Komodo.UnitTest
         public void AddFilmTest()
         {
             Context.Bootstrap();
-            var film = new FilmFetcher("Matrix").Film; // TODO: Initialize to an appropriate value
-            var expected = false; // TODO: Initialize to an appropriate value
-            var actual = Add.AddFilm(film);
-
+            var film = new FilmFetcher("Matrix").Film;
+            var add = new Add();
+            var actual = add.AddFilm(film);
             var id = Komodo.Core.Database.Index.Search.Search.SearchFilm("Matrix");
             Assert.AreNotEqual("",id[0]);
         }

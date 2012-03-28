@@ -22,10 +22,7 @@ C:\repo\Komodo\Komodo\Komodo.DatabaseBuilder\bin\Debug\Komodo.Scraper.dll
 C:\repo\Komodo\Komodo\Komodo.DatabaseBuilder\bin\Debug\HtmlAgilityPack.dll
 C:\repo\Komodo\Komodo\Komodo.DatabaseBuilder\bin\Debug\Komodo.Core.pdb
 C:\repo\Komodo\Komodo\Komodo.DatabaseBuilder\bin\Debug\Komodo.Scraper.pdb
-C:\repo\Komodo\src\Komodo.DatabaseBuilder\bin\Debug\Komodo.DatabaseBuilder.exe.config
-C:\repo\Komodo\src\Komodo.DatabaseBuilder\obj\x86\Debug\Komodo.DatabaseBuilder.exe
 C:\repo\Komodo\src\Komodo.DatabaseBuilder\obj\x86\Debug\Komodo.DatabaseBuilder.pdb
-C:\repo\Komodo\src\Komodo.DatabaseBuilder\bin\Debug\Komodo.DatabaseBuilder.exe
 C:\repo\Komodo\src\Komodo.DatabaseBuilder\bin\Debug\Komodo.DatabaseBuilder.pdb
 C:\repo\Komodo\src\Komodo.DatabaseBuilder\bin\Debug\Komodo.Core.dll
 C:\repo\Komodo\src\Komodo.DatabaseBuilder\bin\Debug\Komodo.Scraper.dll
@@ -33,7 +30,6 @@ C:\repo\Komodo\src\Komodo.DatabaseBuilder\bin\Debug\HtmlAgilityPack.dll
 C:\repo\Komodo\src\Komodo.DatabaseBuilder\bin\Debug\Komodo.Core.pdb
 C:\repo\Komodo\src\Komodo.DatabaseBuilder\bin\Debug\Komodo.Scraper.pdb
 C:\repo\Komodo\src\Komodo.DatabaseBuilder\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\repo\Komodo\src\Komodo.DatabaseBuilder\obj\x86\Debug\Komodo.DatabaseBuilder.FrmMain.resources
 C:\repo\Komodo\src\Komodo.DatabaseBuilder\obj\x86\Debug\Komodo.DatabaseBuilder.Properties.Resources.resources
 C:\repo\Komodo\src\Komodo.DatabaseBuilder\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\repo\Komodo\src\Komodo.DatabaseBuilder\obj\x86\Debug\GenerateResource.write.1.tlog
@@ -55,3 +51,8 @@ C:\repo\Komodo\src\Komodo.DatabaseBuilder\bin\Debug\nl\FluentValidation.resource
 C:\repo\Komodo\src\Komodo.DatabaseBuilder\bin\Debug\pl\FluentValidation.resources.dll
 C:\repo\Komodo\src\Komodo.DatabaseBuilder\bin\Debug\pt\FluentValidation.resources.dll
 C:\repo\Komodo\src\Komodo.DatabaseBuilder\bin\Debug\sv\FluentValidation.resources.dll
+C:\repo\Komodo\src\Komodo.DatabaseBuilder\bin\Debug\Komodo.DatabaseBuilder.dll.config
+C:\repo\Komodo\src\Komodo.DatabaseBuilder\bin\Debug\Komodo.DatabaseBuilder.dll
+C:\repo\Komodo\src\Komodo.DatabaseBuilder\obj\x86\Debug\Komodo.DatabaseBuilder.dll
+C:\repo\Komodo\src\Komodo.DatabaseBuilder\obj\x86\Debug\Komodo.DatabaseBuilder.GUI.Controls.BuildDataBase.resources
+C:\repo\Komodo\src\Komodo.DatabaseBuilder\obj\x86\Debug\Komodo.DatabaseBuilder.Forms.MainForm.resources

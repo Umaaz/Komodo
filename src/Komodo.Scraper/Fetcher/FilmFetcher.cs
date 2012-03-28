@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using Komodo.Core.Types;
 using Komodo.Core.Types.Model;
 using Komodo.Scraper.Fetcher.Types;
 using Komodo.Scraper.IMDB;

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Komodo.Core.Database.Validations;
@@ -11,61 +10,64 @@ namespace Komodo.Core.Database.Commands
 {
     public class Add
     {
-        private static ISession _session;
-        
-        private static Dictionary<string, Person> _personCache = new Dictionary<string, Person>();
+        private readonly ISession _session;
+        private readonly Dictionary<string, Person> _personCache = new Dictionary<string, Person>();
+        private readonly Dictionary<string, Genre> _genreCache = new Dictionary<string, Genre>();
+        private readonly Dictionary<string, KeyWord> _keyWordCache = new Dictionary<string, KeyWord>();
 
-        private static Person GetFromPersonCache(string name)
+        public Add()
+        {
+            _session = Context.GetSession();
+        }
+        
+        private Person GetFromPersonCache(string name)
         {
             Person temp;
             _personCache.TryGetValue(name, out temp);
             return temp;
         }
-        private static void AddToPersonCache(Person person)
+        private void AddToPersonCache(Person person)
         {
             if (!_personCache.ContainsKey(person.Name))
                 _personCache.Add(person.Name, person);
         }
 
-        private static Dictionary<string, Genre> _genreCache = new Dictionary<string, Genre>();
-
-        private static Genre GetFromGenreCache(string genre)
+        private Genre GetFromGenreCache(string genre)
         {
             Genre temp;
             _genreCache.TryGetValue(genre, out temp);
             return temp;
         }
-        private static void AddToGenreCache(Genre genre)
+        private void AddToGenreCache(Genre genre)
         {
             if (!_genreCache.ContainsKey(genre.GenreName))
                 _genreCache.Add(genre.GenreName, genre);
         }
 
-        private static Dictionary<string, KeyWord>  _keyWordCache = new Dictionary<string, KeyWord>();
-
-        private static KeyWord GetFromKeyWordCache(string word)
+        private KeyWord GetFromKeyWordCache(string word)
         {
             KeyWord temp;
             _keyWordCache.TryGetValue(word, out temp);
             return temp;
         }
 
-        private static void AddToKeyWordCache(KeyWord keyWord)
+        private void AddToKeyWordCache(KeyWord keyWord)
         {
             if(!_keyWordCache.ContainsKey(keyWord.Word))
                 _keyWordCache.Add(keyWord.Word,keyWord);
         }
 
-        public static bool AddFilm(Film film)
+        public bool AddFilm(Film film)
         {
             if (film == null)
                 throw new ArgumentNullException("film");
 
             var mayCommit = true;
             Film filmToAdd;
-            _session = Context.GetSession();
             using(var tx = _session.BeginTransaction())
             {
+                if (_session.Query<Film>().Where(x => x.Title == film.Title).SingleOrDefault() != null)
+                    return false;
                 filmToAdd = new Film
                                     {
                                         Title = film.Title,
@@ -123,7 +125,7 @@ namespace Komodo.Core.Database.Commands
             return mayCommit;
         }
 
-        private static void FilterPersonCollection(IList<Person> collection, Film filmToAdd)
+        private void FilterPersonCollection(IList<Person> collection, Film filmToAdd)
         {
             foreach (var person in collection)
             {

@@ -8,34 +8,52 @@ namespace Komodo.Core.Database.Index
         public static Document CreateFilmDocument(Film film)
         {
             var d = new Document();
-            d.Add(NewField("Id",film.Id.ToString()));
-            d.Add(NewField("Title",film.Title));
-            d.Add(NewField("Synopsis",film.Synopsis));
-            d.Add(NewField("ReleaseDate",film.ReleaseDate));
-
+            var nf = NewField("Id", film.Id.ToString());
+            if(nf != null)
+                d.Add(nf);
+            nf = NewField("Title", film.Title);
+            if (nf != null)
+                d.Add(nf);
+            nf = NewField("Synopsis", film.Synopsis);
+            if (nf != null)
+                d.Add(nf);
+            nf = NewField("ReleaseDate", film.ReleaseDate);
+            if (nf != null)
+                d.Add(nf);
+            
             foreach (var director in film.Directors)
             {
-                d.Add(NewField("Director", director.Name));
+                nf = NewField("Director", director.Name);
+                if (nf != null)
+                    d.Add(nf);
             }
 
             foreach (var person in film.Writers)
             {
-                d.Add(NewField("Person", person.Name));
+                nf = NewField("Person", person.Name);
+                if (nf != null)
+                    d.Add(nf);
             }
 
             foreach (var genre in film.Genres)
             {
-                d.Add(NewField("Genre", genre.GenreName));
+                nf = NewField("Genre", genre.GenreName);
+                if (nf != null)
+                    d.Add(nf);
             }
             
             foreach (var role in film.Cast)
             {
-                d.Add(NewField("Cast",role.ToString()));
+                nf = NewField("Cast", role.ToString());
+                if (nf != null)
+                    d.Add(nf);
             }
             
             foreach (var keyWord in film.KeyWords)
             {
-                d.Add(NewField("Keyword",keyWord.Word));
+                nf = NewField("Keyword", keyWord.Word);
+                if (nf != null)
+                    d.Add(nf);
             }
             
             return d;
@@ -43,6 +61,8 @@ namespace Komodo.Core.Database.Index
 
         private static Field NewField(string name, string value)
         {
+            if (value == null || name == null)
+                return null;
             return new Field(name, value,Field.Store.YES,Field.Index.ANALYZED);
         }
     }

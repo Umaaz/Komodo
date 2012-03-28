@@ -53,3 +53,5 @@ C:\repo\Komodo\src\Komodo.UnitTest\bin\Debug\pl\FluentValidation.resources.dll
 C:\repo\Komodo\src\Komodo.UnitTest\bin\Debug\pt\FluentValidation.resources.dll
 C:\repo\Komodo\src\Komodo.UnitTest\bin\Debug\sv\FluentValidation.resources.dll
 C:\repo\Komodo\src\Komodo.UnitTest\bin\Debug\System.Data.SqlServerCe.dll
+C:\repo\Komodo\src\Komodo.UnitTest\bin\Debug\Komodo.App.exe
+C:\repo\Komodo\src\Komodo.UnitTest\bin\Debug\Komodo.App.pdb

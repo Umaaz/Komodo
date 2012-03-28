@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3cc70a82-4144-4707-9b47-8b9de2ff42ed" name="Ben@BEN_VIRTUAL_DEV 2012-03-28 00:12:21" runUser="BEN_VIRTUAL_DEV\Ben" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="6b0181d3-dd2d-46cd-994b-ee321ed33afe">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Ben_BEN_VIRTUAL_DEV 2012-03-28 00_12_21">
+      <DeploymentItem filename="C:\repo\Komodo\packages\Iesi.Collections.3.1.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\src\Komodo.Scraper\bin\Debug\Komodo.Scraper.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\packages\Lucene.Net.2.9.4.1\lib\net40\Lucene.Net.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\packages\NHibernate.Search.2.0.2.4000\lib\Net35\NHibernate.Search.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\packages\NHibernate.3.1.0.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\packages\NHibernate.Castle.3.1.0.4000\lib\Net35\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\src\Komodo.UnitTest\bin\Debug\HtmlAgilityPack.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\packages\Castle.Core.2.5.2\lib\NET35\Castle.Core.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\packages\FluentNHibernate.1.2.0.712\lib\FluentNHibernate.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\packages\FluentValidation.3.2.0.0\lib\Net40\FluentValidation.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\src\Komodo.DatabaseBuilder\bin\Debug\Komodo.App.exe" />
+      <DeploymentItem filename="C:\repo\Komodo\src\Komodo.Core\bin\Debug\Komodo.Core.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft SQL Server Compact Edition\v3.5\Desktop\System.Data.SqlServerCe.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 7.0">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-28T00:12:21.2037109+01:00" queuing="2012-03-28T00:12:22.3150390+01:00" start="2012-03-28T00:12:22.5210937+01:00" finish="2012-03-28T00:12:31.1792969+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="16" executed="16" passed="8" error="0" failed="6" timeout="0" aborted="0" inconclusive="2" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddFileExtensionTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="ff33a400-dbb8-3deb-880e-6135c385c15e">
+      <Execution id="68370c89-688e-4206-94a9-7df135d5a281" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.SettingsControllerTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddFileExtensionTest" />
+    </UnitTest>
+    <UnitTest name="RemoveWatchedFoldersTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="d418e3fa-ac4c-48fa-9aee-d061af630f5d">
+      <Execution id="26fcc662-1a67-4664-85c0-21794b96df2c" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.SettingsControllerTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveWatchedFoldersTest" />
+    </UnitTest>
+    <UnitTest name="RemoveFileExtentionTestPass" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="a5eaa058-f7e9-1aa1-a0dc-eb578b5f2205">
+      <Execution id="475cc00f-13e2-4f7e-b98a-2322875f8b6a" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.SettingsControllerTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveFileExtentionTestPass" />
+    </UnitTest>
+    <UnitTest name="PageFetcherConstructorTest2" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="8044c806-f243-b38b-b211-feeca9dea3ea">
+      <Execution id="a792045e-4de4-4aa8-8060-1004fd78f936" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.PageFetcherTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PageFetcherConstructorTest2" />
+    </UnitTest>
+    <UnitTest name="AddPersonTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="187b3a63-3086-d8b5-8332-aefc232eb149">
+      <Execution id="653c894b-e95f-4d02-ba27-2aa38fac26b2" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.CommandsTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddPersonTest" />
+    </UnitTest>
+    <UnitTest name="ExtractTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="6d077f09-6ca3-6e2d-eae3-d216b52458ae">
+      <Execution id="2ac4d7e3-f32e-4a72-bf33-d243bdf84414" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.ExtractorTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExtractTest" />
+    </UnitTest>
+    <UnitTest name="AddFilmTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="f27c6c72-973b-3167-86ec-0f397b26c58b">
+      <Execution id="7dff67c1-7a56-4e20-bfad-625a52f70225" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.AddTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddFilmTest" />
+    </UnitTest>
+    <UnitTest name="AddFileExtensionTestFail" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="d8d6567a-dda2-1364-7254-9fca5b3c9c3a">
+      <Execution id="8a45221e-f7a3-43ec-994f-2d30e07b803a" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.SettingsControllerTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddFileExtensionTestFail" />
+    </UnitTest>
+    <UnitTest name="PageFetcherConstructorTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="f44a4466-4518-c384-6e24-36ad2220a8c2">
+      <Execution id="21e86e17-aa03-4a48-80c2-ee61a111d56a" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.PageFetcherTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PageFetcherConstructorTest" />
+    </UnitTest>
+    <UnitTest name="RemoveFileExtentionTestFail" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="978bc115-5822-3038-b1dc-aafe476ecaa4">
+      <Execution id="7b34afd4-6609-469f-ab17-65039167e2f0" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.SettingsControllerTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveFileExtentionTestFail" />
+    </UnitTest>
+    <UnitTest name="AddWatchedFoldersTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="e8a6103c-a8b0-b476-50e4-3a1651c04a45">
+      <Execution id="fd8e0586-33c2-4cdc-bb92-c55d93de715c" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.SettingsControllerTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddWatchedFoldersTest" />
+    </UnitTest>
+    <UnitTest name="BootstrapTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="d4e70a01-0853-87e0-5fa0-5ca31df7943e">
+      <Execution id="e3b0ab63-902b-40c3-bf0f-619992b54ced" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.ContextTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BootstrapTest" />
+    </UnitTest>
+    <UnitTest name="GetFilmFromImdbTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="19290635-014b-0d9b-45f3-5f09e1f1fa4a">
+      <Execution id="ee86eebf-387c-41c2-9fb0-03c346c94a1a" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.FilmFetcherTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFilmFromImdbTest" />
+    </UnitTest>
+    <UnitTest name="RemoveBetweenTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="5d4a552b-88f7-bd47-acc7-682481f246a1">
+      <Execution id="7f5fdca1-58b7-4bb7-a2a9-3b5aaa2b75c4" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.ExtractorTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveBetweenTest" />
+    </UnitTest>
+    <UnitTest name="FindTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="7d476f30-8159-b3a9-f40f-e32dd9377670">
+      <Execution id="82bb2b62-a1bf-4743-b115-02d32e15c050" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.ImdbSearchTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindTest" />
+    </UnitTest>
+    <UnitTest name="IndexTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="d5a26375-c1a1-e210-c3a2-b8355d3fe8f6">
+      <Execution id="313efcd1-d823-4f13-bbb9-95d1e81a17a1" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.IndexerTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="187b3a63-3086-d8b5-8332-aefc232eb149" executionId="653c894b-e95f-4d02-ba27-2aa38fac26b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19290635-014b-0d9b-45f3-5f09e1f1fa4a" executionId="ee86eebf-387c-41c2-9fb0-03c346c94a1a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d4a552b-88f7-bd47-acc7-682481f246a1" executionId="7f5fdca1-58b7-4bb7-a2a9-3b5aaa2b75c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d077f09-6ca3-6e2d-eae3-d216b52458ae" executionId="2ac4d7e3-f32e-4a72-bf33-d243bdf84414" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d476f30-8159-b3a9-f40f-e32dd9377670" executionId="82bb2b62-a1bf-4743-b115-02d32e15c050" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8044c806-f243-b38b-b211-feeca9dea3ea" executionId="a792045e-4de4-4aa8-8060-1004fd78f936" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="978bc115-5822-3038-b1dc-aafe476ecaa4" executionId="7b34afd4-6609-469f-ab17-65039167e2f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5eaa058-f7e9-1aa1-a0dc-eb578b5f2205" executionId="475cc00f-13e2-4f7e-b98a-2322875f8b6a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d418e3fa-ac4c-48fa-9aee-d061af630f5d" executionId="26fcc662-1a67-4664-85c0-21794b96df2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4e70a01-0853-87e0-5fa0-5ca31df7943e" executionId="e3b0ab63-902b-40c3-bf0f-619992b54ced" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d5a26375-c1a1-e210-c3a2-b8355d3fe8f6" executionId="313efcd1-d823-4f13-bbb9-95d1e81a17a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8d6567a-dda2-1364-7254-9fca5b3c9c3a" executionId="8a45221e-f7a3-43ec-994f-2d30e07b803a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8a6103c-a8b0-b476-50e4-3a1651c04a45" executionId="fd8e0586-33c2-4cdc-bb92-c55d93de715c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f27c6c72-973b-3167-86ec-0f397b26c58b" executionId="7dff67c1-7a56-4e20-bfad-625a52f70225" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f44a4466-4518-c384-6e24-36ad2220a8c2" executionId="21e86e17-aa03-4a48-80c2-ee61a111d56a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff33a400-dbb8-3deb-880e-6135c385c15e" executionId="68370c89-688e-4206-94a9-7df135d5a281" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="653c894b-e95f-4d02-ba27-2aa38fac26b2" testId="187b3a63-3086-d8b5-8332-aefc232eb149" testName="AddPersonTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.0455940" startTime="2012-03-28T00:12:22.5503906+01:00" endTime="2012-03-28T00:12:23.2925781+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="653c894b-e95f-4d02-ba27-2aa38fac26b2">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at Komodo.UnitTest.CommandsTest.AddPersonTest() in C:\repo\Komodo\src\Komodo.UnitTest\CommandsTest.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ee86eebf-387c-41c2-9fb0-03c346c94a1a" testId="19290635-014b-0d9b-45f3-5f09e1f1fa4a" testName="GetFilmFromImdbTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.5599027" startTime="2012-03-28T00:12:23.2955078+01:00" endTime="2012-03-28T00:12:23.8658203+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee86eebf-387c-41c2-9fb0-03c346c94a1a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at Komodo.UnitTest.FilmFetcherTest.GetFilmFromImdbTest() in C:\repo\Komodo\src\Komodo.UnitTest\FilmFetcherTest.cs:line 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7f5fdca1-58b7-4bb7-a2a9-3b5aaa2b75c4" testId="5d4a552b-88f7-bd47-acc7-682481f246a1" testName="RemoveBetweenTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.0018088" startTime="2012-03-28T00:12:23.8960937+01:00" endTime="2012-03-28T00:12:23.9136719+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f5fdca1-58b7-4bb7-a2a9-3b5aaa2b75c4">
+    </UnitTestResult>
+    <UnitTestResult executionId="2ac4d7e3-f32e-4a72-bf33-d243bdf84414" testId="6d077f09-6ca3-6e2d-eae3-d216b52458ae" testName="ExtractTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.0011196" startTime="2012-03-28T00:12:23.9205078+01:00" endTime="2012-03-28T00:12:23.9322265+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ac4d7e3-f32e-4a72-bf33-d243bdf84414">
+    </UnitTestResult>
+    <UnitTestResult executionId="82bb2b62-a1bf-4743-b115-02d32e15c050" testId="7d476f30-8159-b3a9-f40f-e32dd9377670" testName="FindTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.6490945" startTime="2012-03-28T00:12:23.9361328+01:00" endTime="2012-03-28T00:12:24.5962890+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82bb2b62-a1bf-4743-b115-02d32e15c050">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Komodo.UnitTest.ImdbSearchTest.FindTest threw exception: 
+System.ArgumentOutOfRangeException: startIndex must be less than length of string.
+Parameter name: startIndex</Message>
+          <StackTrace>    at System.String.Remove(Int32 startIndex)
+   at Komodo.Scraper.StringManipulation.Extractor.Extract(String expression, String value) in C:\repo\Komodo\src\Komodo.Scraper\StringManipulation\Extractor.cs:line 32
+   at Komodo.Scraper.IMDB.ImdbSearch.StringSourceToImdbResult(String resultsAsString) in C:\repo\Komodo\src\Komodo.Scraper\IMDB\ImdbSearch.cs:line 64
+   at Komodo.Scraper.IMDB.ImdbSearch.Find() in C:\repo\Komodo\src\Komodo.Scraper\IMDB\ImdbSearch.cs:line 52
+   at Komodo.Scraper.IMDB.ImdbSearch..ctor(String title) in C:\repo\Komodo\src\Komodo.Scraper\IMDB\ImdbSearch.cs:line 36
+   at Komodo.UnitTest.ImdbSearchTest.FindTest() in C:\repo\Komodo\src\Komodo.UnitTest\ImdbSearchTest.cs:line 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a792045e-4de4-4aa8-8060-1004fd78f936" testId="8044c806-f243-b38b-b211-feeca9dea3ea" testName="PageFetcherConstructorTest2" computerName="BEN_VIRTUAL_DEV" duration="00:00:01.0255476" startTime="2012-03-28T00:12:24.5982422+01:00" endTime="2012-03-28T00:12:25.6314453+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a792045e-4de4-4aa8-8060-1004fd78f936">
+    </UnitTestResult>
+    <UnitTestResult executionId="7b34afd4-6609-469f-ab17-65039167e2f0" testId="978bc115-5822-3038-b1dc-aafe476ecaa4" testName="RemoveFileExtentionTestFail" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.0247456" startTime="2012-03-28T00:12:25.6314453+01:00" endTime="2012-03-28T00:12:25.6666015+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b34afd4-6609-469f-ab17-65039167e2f0">
+    </UnitTestResult>
+    <UnitTestResult executionId="475cc00f-13e2-4f7e-b98a-2322875f8b6a" testId="a5eaa058-f7e9-1aa1-a0dc-eb578b5f2205" testName="RemoveFileExtentionTestPass" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.6163456" startTime="2012-03-28T00:12:25.6685547+01:00" endTime="2012-03-28T00:12:26.2906250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="475cc00f-13e2-4f7e-b98a-2322875f8b6a">
+    </UnitTestResult>
+    <UnitTestResult executionId="26fcc662-1a67-4664-85c0-21794b96df2c" testId="d418e3fa-ac4c-48fa-9aee-d061af630f5d" testName="RemoveWatchedFoldersTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.0046816" startTime="2012-03-28T00:12:26.2916015+01:00" endTime="2012-03-28T00:12:26.3052734+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26fcc662-1a67-4664-85c0-21794b96df2c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+          <StackTrace>   at Komodo.UnitTest.SettingsControllerTest.RemoveWatchedFoldersTest() in C:\repo\Komodo\src\Komodo.UnitTest\SettingsControllerTest.cs:line 121
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e3b0ab63-902b-40c3-bf0f-619992b54ced" testId="d4e70a01-0853-87e0-5fa0-5ca31df7943e" testName="BootstrapTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:03.0460877" startTime="2012-03-28T00:12:26.3082031+01:00" endTime="2012-03-28T00:12:29.3560547+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3b0ab63-902b-40c3-bf0f-619992b54ced">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Komodo.UnitTest.ContextTest.BootstrapTest threw exception: 
+FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---&gt; FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---&gt; NHibernate.HibernateException: Incompatible Database Version. If this was a compatible file, run repair. For other cases refer to documentation. [ Db version = 4000000,Requested version = 3505053,File name = \\?\C:\repo\Komodo\TestResults\Ben_BEN_VIRTUAL_DEV 2012-03-28 00_12_21\Out\Media.sdf ] ---&gt; System.Data.SqlServerCe.SqlCeException: Incompatible Database Version. If this was a compatible file, run repair. For other cases refer to documentation. [ Db version = 4000000,Requested version = 3505053,File name = \\?\C:\repo\Komodo\TestResults\Ben_BEN_VIRTUAL_DEV 2012-03-28 00_12_21\Out\Media.sdf ]</Message>
+          <StackTrace>    at System.Data.SqlServerCe.SqlCeConnection.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean justDrop)
+ --- End of inner exception stack trace ---
+    at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Action`1 scriptAction, Boolean export, Boolean justDrop)
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Execute(Boolean script, Boolean export, Boolean justDrop)
+   at NHibernate.Tool.hbm2ddl.SchemaExport.Create(Boolean script, Boolean export)
+   at Komodo.Core.Database.Context.&lt;Bootstrap&gt;b__1(Configuration c) in C:\repo\Komodo\src\Komodo.Core\Database\Context.cs:line 34
+   at FluentNHibernate.Cfg.FluentConfiguration.BuildConfiguration() in d:\Builds\FluentNH-v1.x-nh3\src\FluentNHibernate\Cfg\FluentConfiguration.cs:line 254
+ --- End of inner exception stack trace ---
+    at FluentNHibernate.Cfg.FluentConfiguration.BuildConfiguration() in d:\Builds\FluentNH-v1.x-nh3\src\FluentNHibernate\Cfg\FluentConfiguration.cs:line 261
+   at FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory() in d:\Builds\FluentNH-v1.x-nh3\src\FluentNHibernate\Cfg\FluentConfiguration.cs:line 227
+ --- End of inner exception stack trace ---
+    at FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory() in d:\Builds\FluentNH-v1.x-nh3\src\FluentNHibernate\Cfg\FluentConfiguration.cs:line 232
+   at Komodo.Core.Database.Context.Bootstrap() in C:\repo\Komodo\src\Komodo.Core\Database\Context.cs:line 36
+   at Komodo.UnitTest.ContextTest.BootstrapTest() in C:\repo\Komodo\src\Komodo.UnitTest\ContextTest.cs:line 73
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="313efcd1-d823-4f13-bbb9-95d1e81a17a1" testId="d5a26375-c1a1-e210-c3a2-b8355d3fe8f6" testName="IndexTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.6013105" startTime="2012-03-28T00:12:29.3707031+01:00" endTime="2012-03-28T00:12:29.9869140+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="313efcd1-d823-4f13-bbb9-95d1e81a17a1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Komodo.UnitTest.IndexerTest.IndexTest threw exception: 
+System.ArgumentOutOfRangeException: startIndex must be less than length of string.
+Parameter name: startIndex</Message>
+          <StackTrace>    at System.String.Remove(Int32 startIndex)
+   at Komodo.Scraper.StringManipulation.Extractor.Extract(String expression, String value) in C:\repo\Komodo\src\Komodo.Scraper\StringManipulation\Extractor.cs:line 32
+   at Komodo.Scraper.IMDB.ImdbSearch.StringSourceToImdbResult(String resultsAsString) in C:\repo\Komodo\src\Komodo.Scraper\IMDB\ImdbSearch.cs:line 64
+   at Komodo.Scraper.IMDB.ImdbSearch.Find() in C:\repo\Komodo\src\Komodo.Scraper\IMDB\ImdbSearch.cs:line 52
+   at Komodo.Scraper.IMDB.ImdbSearch..ctor(String title) in C:\repo\Komodo\src\Komodo.Scraper\IMDB\ImdbSearch.cs:line 36
+   at Komodo.Scraper.IMDB.ImdbFilmFetcher.GetFilmFromImdb(String title) in C:\repo\Komodo\src\Komodo.Scraper\IMDB\ImdbFilmFetcher.cs:line 22
+   at Komodo.Scraper.Fetcher.FilmFetcher..ctor(String title, Source source) in C:\repo\Komodo\src\Komodo.Scraper\Fetcher\FilmFetcher.cs:line 26
+   at Komodo.UnitTest.IndexerTest.IndexTest() in C:\repo\Komodo\src\Komodo.UnitTest\IndexerTest.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8a45221e-f7a3-43ec-994f-2d30e07b803a" testId="d8d6567a-dda2-1364-7254-9fca5b3c9c3a" testName="AddFileExtensionTestFail" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.0004902" startTime="2012-03-28T00:12:29.9908203+01:00" endTime="2012-03-28T00:12:30.0044922+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a45221e-f7a3-43ec-994f-2d30e07b803a">
+    </UnitTestResult>
+    <UnitTestResult executionId="fd8e0586-33c2-4cdc-bb92-c55d93de715c" testId="e8a6103c-a8b0-b476-50e4-3a1651c04a45" testName="AddWatchedFoldersTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.0237094" startTime="2012-03-28T00:12:30.0064453+01:00" endTime="2012-03-28T00:12:30.0416015+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd8e0586-33c2-4cdc-bb92-c55d93de715c">
+    </UnitTestResult>
+    <UnitTestResult executionId="7dff67c1-7a56-4e20-bfad-625a52f70225" testId="f27c6c72-973b-3167-86ec-0f397b26c58b" testName="AddFilmTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.2464302" startTime="2012-03-28T00:12:30.0435547+01:00" endTime="2012-03-28T00:12:30.2974609+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7dff67c1-7a56-4e20-bfad-625a52f70225">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Komodo.UnitTest.AddTest.AddFilmTest threw exception: 
+FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---&gt; System.Data.SqlServerCe.SqlCeException: Incompatible Database Version. If this was a compatible file, run repair. For other cases refer to documentation. [ Db version = 4000000,Requested version = 3505053,File name = \\?\C:\repo\Komodo\TestResults\Ben_BEN_VIRTUAL_DEV 2012-03-28 00_12_21\Out\Media.sdf ]</Message>
+          <StackTrace>    at System.Data.SqlServerCe.SqlCeConnection.ProcessResults(Int32 hr)
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory() in d:\Builds\FluentNH-v1.x-nh3\src\FluentNHibernate\Cfg\FluentConfiguration.cs:line 227
+ --- End of inner exception stack trace ---
+    at FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory() in d:\Builds\FluentNH-v1.x-nh3\src\FluentNHibernate\Cfg\FluentConfiguration.cs:line 232
+   at Komodo.Core.Database.Context.Bootstrap() in C:\repo\Komodo\src\Komodo.Core\Database\Context.cs:line 36
+   at Komodo.UnitTest.AddTest.AddFilmTest() in C:\repo\Komodo\src\Komodo.UnitTest\AddTest.cs:line 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="21e86e17-aa03-4a48-80c2-ee61a111d56a" testId="f44a4466-4518-c384-6e24-36ad2220a8c2" testName="PageFetcherConstructorTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.8142512" startTime="2012-03-28T00:12:30.3003906+01:00" endTime="2012-03-28T00:12:31.1246094+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21e86e17-aa03-4a48-80c2-ee61a111d56a">
+    </UnitTestResult>
+    <UnitTestResult executionId="68370c89-688e-4206-94a9-7df135d5a281" testId="ff33a400-dbb8-3deb-880e-6135c385c15e" testName="AddFileExtensionTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.0027467" startTime="2012-03-28T00:12:31.1275390+01:00" endTime="2012-03-28T00:12:31.1382812+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68370c89-688e-4206-94a9-7df135d5a281">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+          <StackTrace>   at Komodo.UnitTest.SettingsControllerTest.AddFileExtensionTest() in C:\repo\Komodo\src\Komodo.UnitTest\SettingsControllerTest.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

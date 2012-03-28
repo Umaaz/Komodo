@@ -39,6 +39,8 @@ namespace Komodo.Scraper.IMDB
         protected override void Find()
         {
             var source = PageFetcher.GetSource("http://www.imdb.com/search/title?sort=" + SortBy + "," + (Ascending ? "asc" : "desc") + "&title=" + FilmTitle.Replace(" ","+") + "&title_type=feature,tv_movie");
+            if (source == null)
+                return;
             var resultsAsStrings = new List<string>();
             var firstSplit = Regex.Split(source, "<tr class=\"even detailed\">");
             for (var i = 1; i < firstSplit.Length; i++)

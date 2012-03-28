@@ -50,6 +50,7 @@
     <Compile Include="Net\HtmlEscapeCharConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringManipulation\Extractor.cs" />
+    <Compile Include="StringManipulation\StringExtensions.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

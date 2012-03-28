@@ -8,18 +8,16 @@ namespace Komodo.Core.Database.Index.Search
 {
     public class Search
     {
-        private static QueryParser GetQueryParser()
+        private static QueryParser GetQueryParser(string[] fields)
         {
-            var fields = new string[Properties.Settings.Default.QueryFields.Count];
-            Properties.Settings.Default.QueryFields.CopyTo(fields,0);
             return new MultiFieldQueryParser(Version.LUCENE_29, fields, new StandardAnalyzer(Version.LUCENE_29));
         }
 
-        public static List<string> SearchFilm(string queryText)
+        public static List<string> SearchFilm(string queryText, string[] fields)
         {
             var films = new List<string>();
-            var searcher = new IndexSearcher(Indexer.GetDirectory(),true);
-            var query = GetQueryParser().Parse(queryText);
+            var searcher = new IndexSearcher(Indexer.GetDirectory(), true);
+            var query = GetQueryParser(fields).Parse(queryText);
             var collection = searcher.Search(query, 20);
             for (int i = 0; i < collection.TotalHits; i++)
             {
@@ -29,6 +27,13 @@ namespace Komodo.Core.Database.Index.Search
                 films.Add(dd);
             }
             return films;
+        }
+
+        public static List<string> SearchFilm(string queryText)
+        {
+            var fields = new string[Properties.Settings.Default.QueryFields.Count];
+            Properties.Settings.Default.QueryFields.CopyTo(fields, 0);
+            return SearchFilm(queryText, fields);
         }
     }
 }

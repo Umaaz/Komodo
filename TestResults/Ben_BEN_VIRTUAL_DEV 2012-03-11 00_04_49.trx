@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d6d97a70-b7d0-4b80-ad26-9ed149235933" name="Ben@BEN_VIRTUAL_DEV 2012-03-11 00:04:49" runUser="BEN_VIRTUAL_DEV\Ben" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="6b0181d3-dd2d-46cd-994b-ee321ed33afe">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Ben_BEN_VIRTUAL_DEV 2012-03-11 00_04_49">
+      <DeploymentItem filename="C:\repo\Komodo\packages\Iesi.Collections.3.1.0.4000\lib\Net35\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\src\Komodo.Scraper\bin\Debug\Komodo.Scraper.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\packages\Lucene.Net.2.9.4.1\lib\net40\Lucene.Net.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\packages\NHibernate.Search.2.0.2.4000\lib\Net35\NHibernate.Search.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\packages\NHibernate.3.1.0.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\packages\NHibernate.Castle.3.1.0.4000\lib\Net35\NHibernate.ByteCode.Castle.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\src\Komodo.UnitTest\bin\Debug\HtmlAgilityPack.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\packages\Castle.Core.2.5.2\lib\NET35\Castle.Core.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\packages\FluentNHibernate.1.2.0.712\lib\FluentNHibernate.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\packages\FluentValidation.3.2.0.0\lib\Net40\FluentValidation.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\src\Komodo.Core\bin\Debug\Komodo.Core.dll" />
+      <DeploymentItem filename="C:\repo\Komodo\src\Komodo.DatabaseBuilder\bin\Debug\Komodo.DatabaseBuilder.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft SQL Server Compact Edition\v3.5\Desktop\System.Data.SqlServerCe.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 7.0">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-11T00:04:49.8503672+00:00" queuing="2012-03-11T00:04:49.8874765+00:00" start="2012-03-11T00:04:49.9011484+00:00" finish="2012-03-11T00:05:06.3718515+00:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="14" executed="14" passed="10" error="0" failed="1" timeout="0" aborted="0" inconclusive="3" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AddFileExtensionTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="ff33a400-dbb8-3deb-880e-6135c385c15e">
+      <Execution id="21d91408-8373-4a0e-82d5-dcad972843bd" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.SettingsControllerTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddFileExtensionTest" />
+    </UnitTest>
+    <UnitTest name="RemoveFileExtentionTestPass" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="a5eaa058-f7e9-1aa1-a0dc-eb578b5f2205">
+      <Execution id="01db5228-bc1d-4968-9d41-ed349562abb3" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.SettingsControllerTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveFileExtentionTestPass" />
+    </UnitTest>
+    <UnitTest name="PageFetcherConstructorTest2" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="8044c806-f243-b38b-b211-feeca9dea3ea">
+      <Execution id="db5efa0d-ba37-443e-82b5-5853174a41cd" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.PageFetcherTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PageFetcherConstructorTest2" />
+    </UnitTest>
+    <UnitTest name="AddPersonTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="187b3a63-3086-d8b5-8332-aefc232eb149">
+      <Execution id="e23ba5d3-dca4-45dc-9a71-e6e162118661" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.CommandsTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddPersonTest" />
+    </UnitTest>
+    <UnitTest name="ExtractTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="6d077f09-6ca3-6e2d-eae3-d216b52458ae">
+      <Execution id="9ba2dc57-22a9-4d00-ab18-7f0956736499" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.ExtractorTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExtractTest" />
+    </UnitTest>
+    <UnitTest name="AddFilmTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="f27c6c72-973b-3167-86ec-0f397b26c58b">
+      <Execution id="f10c564a-ef9b-4646-af34-6c2ef77baf81" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.AddTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddFilmTest" />
+    </UnitTest>
+    <UnitTest name="AddFileExtensionTestFail" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="d8d6567a-dda2-1364-7254-9fca5b3c9c3a">
+      <Execution id="1d8c841a-4977-4e56-9c41-37f446a9c622" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.SettingsControllerTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddFileExtensionTestFail" />
+    </UnitTest>
+    <UnitTest name="PageFetcherConstructorTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="f44a4466-4518-c384-6e24-36ad2220a8c2">
+      <Execution id="3f5156c8-3162-4e7f-a2bc-1a836f2154fa" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.PageFetcherTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PageFetcherConstructorTest" />
+    </UnitTest>
+    <UnitTest name="RemoveFileExtentionTestFail" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="978bc115-5822-3038-b1dc-aafe476ecaa4">
+      <Execution id="07ce6a59-a2f5-486c-80d0-013bea01cf7d" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.SettingsControllerTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveFileExtentionTestFail" />
+    </UnitTest>
+    <UnitTest name="BootstrapTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="d4e70a01-0853-87e0-5fa0-5ca31df7943e">
+      <Execution id="a961e856-9804-4b3e-973d-aec5acbd6427" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.ContextTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BootstrapTest" />
+    </UnitTest>
+    <UnitTest name="GetFilmFromImdbTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="19290635-014b-0d9b-45f3-5f09e1f1fa4a">
+      <Execution id="b87e20cc-4278-43c9-aee4-b4deddea0aa9" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.FilmFetcherTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFilmFromImdbTest" />
+    </UnitTest>
+    <UnitTest name="RemoveBetweenTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="5d4a552b-88f7-bd47-acc7-682481f246a1">
+      <Execution id="ea312cb3-1346-4b94-8bc3-47febd9820b8" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.ExtractorTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveBetweenTest" />
+    </UnitTest>
+    <UnitTest name="FindTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="7d476f30-8159-b3a9-f40f-e32dd9377670">
+      <Execution id="cf221096-789f-4559-b4f5-067f2fa13bac" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.ImdbSearchTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindTest" />
+    </UnitTest>
+    <UnitTest name="IndexTest" storage="c:\repo\komodo\src\komodo.unittest\bin\debug\komodo.unittest.dll" id="d5a26375-c1a1-e210-c3a2-b8355d3fe8f6">
+      <Execution id="1217a6e9-ee67-42cf-93fe-492dff1e8abc" />
+      <TestMethod codeBase="C:/repo/Komodo/src/Komodo.UnitTest/bin/Debug/Komodo.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Komodo.UnitTest.IndexerTest, Komodo.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IndexTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="187b3a63-3086-d8b5-8332-aefc232eb149" executionId="e23ba5d3-dca4-45dc-9a71-e6e162118661" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19290635-014b-0d9b-45f3-5f09e1f1fa4a" executionId="b87e20cc-4278-43c9-aee4-b4deddea0aa9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d4a552b-88f7-bd47-acc7-682481f246a1" executionId="ea312cb3-1346-4b94-8bc3-47febd9820b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d077f09-6ca3-6e2d-eae3-d216b52458ae" executionId="9ba2dc57-22a9-4d00-ab18-7f0956736499" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d476f30-8159-b3a9-f40f-e32dd9377670" executionId="cf221096-789f-4559-b4f5-067f2fa13bac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8044c806-f243-b38b-b211-feeca9dea3ea" executionId="db5efa0d-ba37-443e-82b5-5853174a41cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="978bc115-5822-3038-b1dc-aafe476ecaa4" executionId="07ce6a59-a2f5-486c-80d0-013bea01cf7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5eaa058-f7e9-1aa1-a0dc-eb578b5f2205" executionId="01db5228-bc1d-4968-9d41-ed349562abb3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4e70a01-0853-87e0-5fa0-5ca31df7943e" executionId="a961e856-9804-4b3e-973d-aec5acbd6427" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d5a26375-c1a1-e210-c3a2-b8355d3fe8f6" executionId="1217a6e9-ee67-42cf-93fe-492dff1e8abc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8d6567a-dda2-1364-7254-9fca5b3c9c3a" executionId="1d8c841a-4977-4e56-9c41-37f446a9c622" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f27c6c72-973b-3167-86ec-0f397b26c58b" executionId="f10c564a-ef9b-4646-af34-6c2ef77baf81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f44a4466-4518-c384-6e24-36ad2220a8c2" executionId="3f5156c8-3162-4e7f-a2bc-1a836f2154fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff33a400-dbb8-3deb-880e-6135c385c15e" executionId="21d91408-8373-4a0e-82d5-dcad972843bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e23ba5d3-dca4-45dc-9a71-e6e162118661" testId="187b3a63-3086-d8b5-8332-aefc232eb149" testName="AddPersonTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.0326742" startTime="2012-03-11T00:04:49.9060312+00:00" endTime="2012-03-11T00:04:50.2995859+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e23ba5d3-dca4-45dc-9a71-e6e162118661">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at Komodo.UnitTest.CommandsTest.AddPersonTest() in C:\repo\Komodo\src\Komodo.UnitTest\CommandsTest.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b87e20cc-4278-43c9-aee4-b4deddea0aa9" testId="19290635-014b-0d9b-45f3-5f09e1f1fa4a" testName="GetFilmFromImdbTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.5890307" startTime="2012-03-11T00:04:50.3015390+00:00" endTime="2012-03-11T00:04:50.8962656+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b87e20cc-4278-43c9-aee4-b4deddea0aa9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at Komodo.UnitTest.FilmFetcherTest.GetFilmFromImdbTest() in C:\repo\Komodo\src\Komodo.UnitTest\FilmFetcherTest.cs:line 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ea312cb3-1346-4b94-8bc3-47febd9820b8" testId="5d4a552b-88f7-bd47-acc7-682481f246a1" testName="RemoveBetweenTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.0014186" startTime="2012-03-11T00:04:50.8982187+00:00" endTime="2012-03-11T00:04:50.9079844+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea312cb3-1346-4b94-8bc3-47febd9820b8">
+    </UnitTestResult>
+    <UnitTestResult executionId="9ba2dc57-22a9-4d00-ab18-7f0956736499" testId="6d077f09-6ca3-6e2d-eae3-d216b52458ae" testName="ExtractTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.0012451" startTime="2012-03-11T00:04:50.9109140+00:00" endTime="2012-03-11T00:04:50.9197031+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ba2dc57-22a9-4d00-ab18-7f0956736499">
+    </UnitTestResult>
+    <UnitTestResult executionId="cf221096-789f-4559-b4f5-067f2fa13bac" testId="7d476f30-8159-b3a9-f40f-e32dd9377670" testName="FindTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.8750424" startTime="2012-03-11T00:04:50.9206797+00:00" endTime="2012-03-11T00:04:51.8034922+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf221096-789f-4559-b4f5-067f2fa13bac">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Collections.Generic.List`1[Komodo.Scraper.Fetcher.Types.Result]&gt;. </Message>
+          <StackTrace>   at Komodo.UnitTest.ImdbSearchTest.FindTest() in C:\repo\Komodo\src\Komodo.UnitTest\ImdbSearchTest.cs:line 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="db5efa0d-ba37-443e-82b5-5853174a41cd" testId="8044c806-f243-b38b-b211-feeca9dea3ea" testName="PageFetcherConstructorTest2" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.8013426" startTime="2012-03-11T00:04:51.8054453+00:00" endTime="2012-03-11T00:04:52.6140390+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db5efa0d-ba37-443e-82b5-5853174a41cd">
+    </UnitTestResult>
+    <UnitTestResult executionId="07ce6a59-a2f5-486c-80d0-013bea01cf7d" testId="978bc115-5822-3038-b1dc-aafe476ecaa4" testName="RemoveFileExtentionTestFail" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.0038373" startTime="2012-03-11T00:04:52.6159922+00:00" endTime="2012-03-11T00:04:52.6286875+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07ce6a59-a2f5-486c-80d0-013bea01cf7d">
+    </UnitTestResult>
+    <UnitTestResult executionId="01db5228-bc1d-4968-9d41-ed349562abb3" testId="a5eaa058-f7e9-1aa1-a0dc-eb578b5f2205" testName="RemoveFileExtentionTestPass" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.4852155" startTime="2012-03-11T00:04:52.6306406+00:00" endTime="2012-03-11T00:04:53.1228281+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01db5228-bc1d-4968-9d41-ed349562abb3">
+    </UnitTestResult>
+    <UnitTestResult executionId="a961e856-9804-4b3e-973d-aec5acbd6427" testId="d4e70a01-0853-87e0-5fa0-5ca31df7943e" testName="BootstrapTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:02.4133170" startTime="2012-03-11T00:04:53.1267344+00:00" endTime="2012-03-11T00:04:55.5486094+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a961e856-9804-4b3e-973d-aec5acbd6427">
+    </UnitTestResult>
+    <UnitTestResult executionId="1217a6e9-ee67-42cf-93fe-492dff1e8abc" testId="d5a26375-c1a1-e210-c3a2-b8355d3fe8f6" testName="IndexTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:06.7651589" startTime="2012-03-11T00:04:55.5495859+00:00" endTime="2012-03-11T00:05:02.3220469+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1217a6e9-ee67-42cf-93fe-492dff1e8abc">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at Komodo.UnitTest.IndexerTest.IndexTest() in C:\repo\Komodo\src\Komodo.UnitTest\IndexerTest.cs:line 82
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1d8c841a-4977-4e56-9c41-37f446a9c622" testId="d8d6567a-dda2-1364-7254-9fca5b3c9c3a" testName="AddFileExtensionTestFail" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.0007925" startTime="2012-03-11T00:05:02.3240000+00:00" endTime="2012-03-11T00:05:02.3318125+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d8c841a-4977-4e56-9c41-37f446a9c622">
+    </UnitTestResult>
+    <UnitTestResult executionId="f10c564a-ef9b-4646-af34-6c2ef77baf81" testId="f27c6c72-973b-3167-86ec-0f397b26c58b" testName="AddFilmTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:03.2582875" startTime="2012-03-11T00:05:02.3347422+00:00" endTime="2012-03-11T00:05:05.5984140+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f10c564a-ef9b-4646-af34-6c2ef77baf81">
+      <Output>
+        <StdOut>NHibernate: select person0_.PersonId as PersonId18_, person0_.Name as Name18_, person0_.Url as Url18_ from tbl_Person person0_ where person0_.Name=@p0;@p0 = 'Andy Wachowski' [Type: String (0)]
+NHibernate: select person0_.PersonId as PersonId18_, person0_.Name as Name18_, person0_.Url as Url18_ from tbl_Person person0_ where person0_.Name=@p0;@p0 = 'Lana Wachowski' [Type: String (0)]
+NHibernate: select genre0_.GenreId as GenreId16_, genre0_.GenreName as GenreName16_ from tbl_Genre genre0_ where genre0_.GenreName=@p0;@p0 = 'Action' [Type: String (0)]
+NHibernate: select genre0_.GenreId as GenreId16_, genre0_.GenreName as GenreName16_ from tbl_Genre genre0_ where genre0_.GenreName=@p0;@p0 = 'Adventure' [Type: String (0)]
+NHibernate: select genre0_.GenreId as GenreId16_, genre0_.GenreName as GenreName16_ from tbl_Genre genre0_ where genre0_.GenreName=@p0;@p0 = 'Sci-Fi' [Type: String (0)]
+NHibernate: select keyword0_.KeyWordId as KeyWordId17_, keyword0_.Word as Word17_ from tbl_KeyWord keyword0_ where keyword0_.Word=@p0;@p0 = 'Computer' [Type: String (0)]
+NHibernate: select keyword0_.KeyWordId as KeyWordId17_, keyword0_.Word as Word17_ from tbl_KeyWord keyword0_ where keyword0_.Word=@p0;@p0 = 'Hacker' [Type: String (0)]
+NHibernate: select keyword0_.KeyWordId as KeyWordId17_, keyword0_.Word as Word17_ from tbl_KeyWord keyword0_ where keyword0_.Word=@p0;@p0 = 'Computer Hacker' [Type: String (0)]
+NHibernate: select keyword0_.KeyWordId as KeyWordId17_, keyword0_.Word as Word17_ from tbl_KeyWord keyword0_ where keyword0_.Word=@p0;@p0 = 'Reality' [Type: String (0)]
+NHibernate: select keyword0_.KeyWordId as KeyWordId17_, keyword0_.Word as Word17_ from tbl_KeyWord keyword0_ where keyword0_.Word=@p0;@p0 = 'Truth' [Type: String (0)]
+NHibernate: select person0_.PersonId as PersonId18_, person0_.Name as Name18_, person0_.Url as Url18_ from tbl_Person person0_ where person0_.Name=@p0;@p0 = 'Keanu Reeves' [Type: String (0)]
+NHibernate: select person0_.PersonId as PersonId18_, person0_.Name as Name18_, person0_.Url as Url18_ from tbl_Person person0_ where person0_.Name=@p0;@p0 = 'Laurence Fishburne' [Type: String (0)]
+NHibernate: select person0_.PersonId as PersonId18_, person0_.Name as Name18_, person0_.Url as Url18_ from tbl_Person person0_ where person0_.Name=@p0;@p0 = 'Carrie-Anne Moss' [Type: String (0)]
+NHibernate: select person0_.PersonId as PersonId18_, person0_.Name as Name18_, person0_.Url as Url18_ from tbl_Person person0_ where person0_.Name=@p0;@p0 = 'Hugo Weaving' [Type: String (0)]
+NHibernate: select person0_.PersonId as PersonId18_, person0_.Name as Name18_, person0_.Url as Url18_ from tbl_Person person0_ where person0_.Name=@p0;@p0 = 'Gloria Foster' [Type: String (0)]
+NHibernate: select person0_.PersonId as PersonId18_, person0_.Name as Name18_, person0_.Url as Url18_ from tbl_Person person0_ where person0_.Name=@p0;@p0 = 'Joe Pantoliano' [Type: String (0)]
+NHibernate: select person0_.PersonId as PersonId18_, person0_.Name as Name18_, person0_.Url as Url18_ from tbl_Person person0_ where person0_.Name=@p0;@p0 = 'Marcus Chong' [Type: String (0)]
+NHibernate: select person0_.PersonId as PersonId18_, person0_.Name as Name18_, person0_.Url as Url18_ from tbl_Person person0_ where person0_.Name=@p0;@p0 = 'Julian Arahanga' [Type: String (0)]
+NHibernate: select person0_.PersonId as PersonId18_, person0_.Name as Name18_, person0_.Url as Url18_ from tbl_Person person0_ where person0_.Name=@p0;@p0 = 'Matt Doran' [Type: String (0)]
+NHibernate: select person0_.PersonId as PersonId18_, person0_.Name as Name18_, person0_.Url as Url18_ from tbl_Person person0_ where person0_.Name=@p0;@p0 = 'Belinda McClory' [Type: String (0)]
+NHibernate: select person0_.PersonId as PersonId18_, person0_.Name as Name18_, person0_.Url as Url18_ from tbl_Person person0_ where person0_.Name=@p0;@p0 = 'Anthony Ray Parker' [Type: String (0)]
+NHibernate: select person0_.PersonId as PersonId18_, person0_.Name as Name18_, person0_.Url as Url18_ from tbl_Person person0_ where person0_.Name=@p0;@p0 = 'Paul Goddard' [Type: String (0)]
+NHibernate: select person0_.PersonId as PersonId18_, person0_.Name as Name18_, person0_.Url as Url18_ from tbl_Person person0_ where person0_.Name=@p0;@p0 = 'Robert Taylor' [Type: String (0)]
+NHibernate: select person0_.PersonId as PersonId18_, person0_.Name as Name18_, person0_.Url as Url18_ from tbl_Person person0_ where person0_.Name=@p0;@p0 = 'David Aston' [Type: String (0)]
+NHibernate: select person0_.PersonId as PersonId18_, person0_.Name as Name18_, person0_.Url as Url18_ from tbl_Person person0_ where person0_.Name=@p0;@p0 = 'Marc Aden Gray' [Type: String (0)]
+NHibernate: INSERT INTO tbl_Film (Title, Synopsis, ReleaseDate, Url, FilmId) VALUES (@p0, @p1, @p2, @p3, @p4);@p0 = 'The Matrix ' [Type: String (0)], @p1 = 'Thomas A. Anderson is a man living two lives. By day he is an average computer programmer and by night a hacker known as Neo. Neo has always questioned his reality, but the truth is far beyond his imagination. Neo finds himself targeted by the police when he is contacted by Morpheus, a legendary computer hacker branded a terrorist by the government. Morpheus awakens Neo to the real world, a ravaged wasteland where most of humanity have been captured by a race of machines that live off of the humans' body heat and electrochemical energy and who imprison their minds within an artificial reality known as the Matrix. As a rebel against the machines, Neo must return to the Matrix and confront the agents: super-powerful computer programs devoted to snuffing out Neo and the entire human rebellion.' [Type: String (0)], @p2 = '1999' [Type: String (0)], @p3 = 'http://www.imdb.com/title/tt0133093' [Type: String (0)], @p4 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Person (Name, Url, PersonId) VALUES (@p0, @p1, @p2);@p0 = 'Andy Wachowski' [Type: String (0)], @p1 = 'nm0905152' [Type: String (0)], @p2 = d1aec91b-5f63-4c54-a365-150d4fc7c7bb [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Person (Name, Url, PersonId) VALUES (@p0, @p1, @p2);@p0 = 'Lana Wachowski' [Type: String (0)], @p1 = 'nm0905154' [Type: String (0)], @p2 = 2bfe965c-99e1-480f-88bc-e4624469d33d [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Genre (GenreName, GenreId) VALUES (@p0, @p1);@p0 = 'Action' [Type: String (0)], @p1 = 5a40b056-c6c2-4680-b6fe-b5492d10d6b2 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Genre (GenreName, GenreId) VALUES (@p0, @p1);@p0 = 'Adventure' [Type: String (0)], @p1 = f93c347d-0339-4866-b7b7-42c0b06d390e [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Genre (GenreName, GenreId) VALUES (@p0, @p1);@p0 = 'Sci-Fi' [Type: String (0)], @p1 = 456b9f17-a08e-4d87-8a66-48b8d18ad7ed [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Person (Name, Url, PersonId) VALUES (@p0, @p1, @p2);@p0 = 'Keanu Reeves' [Type: String (0)], @p1 = 'nm0000206' [Type: String (0)], @p2 = 64330b73-0dca-49ee-b999-ad0d41b289e6 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Role (CharacterName, ActorId, RoleId) VALUES (@p0, @p1, @p2);@p0 = 'Neo' [Type: String (0)], @p1 = 64330b73-0dca-49ee-b999-ad0d41b289e6 [Type: Guid (0)], @p2 = cad21af7-4856-4d47-a2de-b17fa5af935f [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Person (Name, Url, PersonId) VALUES (@p0, @p1, @p2);@p0 = 'Laurence Fishburne' [Type: String (0)], @p1 = 'nm0000401' [Type: String (0)], @p2 = afdea32b-476f-4365-8f12-ee3ea4da7202 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Role (CharacterName, ActorId, RoleId) VALUES (@p0, @p1, @p2);@p0 = 'Morpheus' [Type: String (0)], @p1 = afdea32b-476f-4365-8f12-ee3ea4da7202 [Type: Guid (0)], @p2 = ba64aa51-4655-400f-bb0c-4f4e94c5758d [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Person (Name, Url, PersonId) VALUES (@p0, @p1, @p2);@p0 = 'Carrie-Anne Moss' [Type: String (0)], @p1 = 'nm0005251' [Type: String (0)], @p2 = 8a4abf94-4cda-420f-8d6c-08502e1f4acd [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Role (CharacterName, ActorId, RoleId) VALUES (@p0, @p1, @p2);@p0 = 'Trinity' [Type: String (0)], @p1 = 8a4abf94-4cda-420f-8d6c-08502e1f4acd [Type: Guid (0)], @p2 = 1aa115cd-7d69-43d5-9782-bbdc5574e20b [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Person (Name, Url, PersonId) VALUES (@p0, @p1, @p2);@p0 = 'Hugo Weaving' [Type: String (0)], @p1 = 'nm0915989' [Type: String (0)], @p2 = e61e5ca2-f414-4187-bc28-de2cdd46b85f [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Role (CharacterName, ActorId, RoleId) VALUES (@p0, @p1, @p2);@p0 = 'Agent Smith' [Type: String (0)], @p1 = e61e5ca2-f414-4187-bc28-de2cdd46b85f [Type: Guid (0)], @p2 = b85f6ae5-b1e5-4399-a5d2-655218ba536d [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Person (Name, Url, PersonId) VALUES (@p0, @p1, @p2);@p0 = 'Gloria Foster' [Type: String (0)], @p1 = 'nm0287825' [Type: String (0)], @p2 = 77417dc9-7f4f-4012-b34e-c97e7dca931c [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Role (CharacterName, ActorId, RoleId) VALUES (@p0, @p1, @p2);@p0 = 'Oracle' [Type: String (0)], @p1 = 77417dc9-7f4f-4012-b34e-c97e7dca931c [Type: Guid (0)], @p2 = 2c1734fb-c20b-4ba1-b96e-8a6e306c006b [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Person (Name, Url, PersonId) VALUES (@p0, @p1, @p2);@p0 = 'Joe Pantoliano' [Type: String (0)], @p1 = 'nm0001592' [Type: String (0)], @p2 = 4ce56fe8-0f7e-482a-a806-a72910666a57 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Role (CharacterName, ActorId, RoleId) VALUES (@p0, @p1, @p2);@p0 = 'Cypher' [Type: String (0)], @p1 = 4ce56fe8-0f7e-482a-a806-a72910666a57 [Type: Guid (0)], @p2 = 589fea50-b19b-4e10-b9bc-c931e3fe56e4 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Person (Name, Url, PersonId) VALUES (@p0, @p1, @p2);@p0 = 'Marcus Chong' [Type: String (0)], @p1 = 'nm0159059' [Type: String (0)], @p2 = 14f99e6a-dba8-489e-9791-e020e47e4f83 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Role (CharacterName, ActorId, RoleId) VALUES (@p0, @p1, @p2);@p0 = 'Tank' [Type: String (0)], @p1 = 14f99e6a-dba8-489e-9791-e020e47e4f83 [Type: Guid (0)], @p2 = d9244620-99eb-4a09-9cc2-26c69faa29b1 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Person (Name, Url, PersonId) VALUES (@p0, @p1, @p2);@p0 = 'Julian Arahanga' [Type: String (0)], @p1 = 'nm0032810' [Type: String (0)], @p2 = 2bacb8a1-6bc4-4aaa-80d3-27a184f1f4d4 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Role (CharacterName, ActorId, RoleId) VALUES (@p0, @p1, @p2);@p0 = 'Apoc' [Type: String (0)], @p1 = 2bacb8a1-6bc4-4aaa-80d3-27a184f1f4d4 [Type: Guid (0)], @p2 = d1186a24-45b5-4b0f-8ad7-4b107665b9e3 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Person (Name, Url, PersonId) VALUES (@p0, @p1, @p2);@p0 = 'Matt Doran' [Type: String (0)], @p1 = 'nm0233391' [Type: String (0)], @p2 = 5cfe8ce2-6782-47f5-970c-412f14d2eacb [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Role (CharacterName, ActorId, RoleId) VALUES (@p0, @p1, @p2);@p0 = 'Mouse' [Type: String (0)], @p1 = 5cfe8ce2-6782-47f5-970c-412f14d2eacb [Type: Guid (0)], @p2 = 27d9190a-9bfb-441f-8e46-9aec9a780579 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Person (Name, Url, PersonId) VALUES (@p0, @p1, @p2);@p0 = 'Belinda McClory' [Type: String (0)], @p1 = 'nm0565883' [Type: String (0)], @p2 = 415c5fc8-887e-4a95-840b-72baf4555e91 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Role (CharacterName, ActorId, RoleId) VALUES (@p0, @p1, @p2);@p0 = 'Switch' [Type: String (0)], @p1 = 415c5fc8-887e-4a95-840b-72baf4555e91 [Type: Guid (0)], @p2 = 99813f2e-c52d-4298-a8b6-d210415e5b16 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Person (Name, Url, PersonId) VALUES (@p0, @p1, @p2);@p0 = 'Anthony Ray Parker' [Type: String (0)], @p1 = 'nm0662562' [Type: String (0)], @p2 = 6c088529-fb9c-4dc3-a085-e1c3ce93251d [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Role (CharacterName, ActorId, RoleId) VALUES (@p0, @p1, @p2);@p0 = 'Dozer' [Type: String (0)], @p1 = 6c088529-fb9c-4dc3-a085-e1c3ce93251d [Type: Guid (0)], @p2 = 057f9f08-99df-43a1-a253-9d81a273142b [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Person (Name, Url, PersonId) VALUES (@p0, @p1, @p2);@p0 = 'Paul Goddard' [Type: String (0)], @p1 = 'nm0323822' [Type: String (0)], @p2 = 3867a01d-dc66-4a29-a8b1-d3046104946c [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Role (CharacterName, ActorId, RoleId) VALUES (@p0, @p1, @p2);@p0 = 'Agent Brown' [Type: String (0)], @p1 = 3867a01d-dc66-4a29-a8b1-d3046104946c [Type: Guid (0)], @p2 = b976037a-6469-466f-911c-a6b65bb1bb33 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Person (Name, Url, PersonId) VALUES (@p0, @p1, @p2);@p0 = 'Robert Taylor' [Type: String (0)], @p1 = 'nm0853079' [Type: String (0)], @p2 = 49713c5b-b45e-455c-8bb6-ae3108b4cf89 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Role (CharacterName, ActorId, RoleId) VALUES (@p0, @p1, @p2);@p0 = 'Agent Jones' [Type: String (0)], @p1 = 49713c5b-b45e-455c-8bb6-ae3108b4cf89 [Type: Guid (0)], @p2 = c3fab8e2-f366-4020-b6e9-c8473322ba79 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Person (Name, Url, PersonId) VALUES (@p0, @p1, @p2);@p0 = 'David Aston' [Type: String (0)], @p1 = 'nm0040058' [Type: String (0)], @p2 = 00471f2d-a318-49e7-8829-e818cbc832ec [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Role (CharacterName, ActorId, RoleId) VALUES (@p0, @p1, @p2);@p0 = 'Rhineheart' [Type: String (0)], @p1 = 00471f2d-a318-49e7-8829-e818cbc832ec [Type: Guid (0)], @p2 = d3a31721-89ed-4676-addf-117c7990a089 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Person (Name, Url, PersonId) VALUES (@p0, @p1, @p2);@p0 = 'Marc Aden Gray' [Type: String (0)], @p1 = 'nm0336802' [Type: String (0)], @p2 = 7b518790-9634-4540-ae5b-cb49ac617476 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_Role (CharacterName, ActorId, RoleId) VALUES (@p0, @p1, @p2);@p0 = 'Choi' [Type: String (0)], @p1 = 7b518790-9634-4540-ae5b-cb49ac617476 [Type: Guid (0)], @p2 = dc33acea-d178-4760-b683-cd05100e71c6 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_KeyWord (Word, KeyWordId) VALUES (@p0, @p1);@p0 = 'Computer' [Type: String (0)], @p1 = 026f2a5f-be37-41c5-a150-b7b436e082cf [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_KeyWord (Word, KeyWordId) VALUES (@p0, @p1);@p0 = 'Hacker' [Type: String (0)], @p1 = 05bcb1ff-d536-4cc0-9f29-9e8788994ac6 [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_KeyWord (Word, KeyWordId) VALUES (@p0, @p1);@p0 = 'Computer Hacker' [Type: String (0)], @p1 = bf3e4659-db60-4d94-9ec2-f1e72672c2cb [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_KeyWord (Word, KeyWordId) VALUES (@p0, @p1);@p0 = 'Reality' [Type: String (0)], @p1 = 6029d073-0d8d-4ccb-8c07-76a1bf63ca1f [Type: Guid (0)]
+NHibernate: INSERT INTO tbl_KeyWord (Word, KeyWordId) VALUES (@p0, @p1);@p0 = 'Truth' [Type: String (0)], @p1 = 614fe6d9-4bcf-4c5d-847a-ac5db4799ccc [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Person (FilmId, PersonId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = d1aec91b-5f63-4c54-a365-150d4fc7c7bb [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Person (FilmId, PersonId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = 2bfe965c-99e1-480f-88bc-e4624469d33d [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Person (FilmId, PersonId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = d1aec91b-5f63-4c54-a365-150d4fc7c7bb [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Person (FilmId, PersonId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = 2bfe965c-99e1-480f-88bc-e4624469d33d [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Genre (FilmId, GenreId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = 5a40b056-c6c2-4680-b6fe-b5492d10d6b2 [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Genre (FilmId, GenreId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = f93c347d-0339-4866-b7b7-42c0b06d390e [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Genre (FilmId, GenreId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = 456b9f17-a08e-4d87-8a66-48b8d18ad7ed [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Role (FilmId, RoleId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = cad21af7-4856-4d47-a2de-b17fa5af935f [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Role (FilmId, RoleId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = ba64aa51-4655-400f-bb0c-4f4e94c5758d [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Role (FilmId, RoleId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = 1aa115cd-7d69-43d5-9782-bbdc5574e20b [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Role (FilmId, RoleId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = b85f6ae5-b1e5-4399-a5d2-655218ba536d [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Role (FilmId, RoleId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = 2c1734fb-c20b-4ba1-b96e-8a6e306c006b [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Role (FilmId, RoleId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = 589fea50-b19b-4e10-b9bc-c931e3fe56e4 [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Role (FilmId, RoleId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = d9244620-99eb-4a09-9cc2-26c69faa29b1 [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Role (FilmId, RoleId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = d1186a24-45b5-4b0f-8ad7-4b107665b9e3 [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Role (FilmId, RoleId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = 27d9190a-9bfb-441f-8e46-9aec9a780579 [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Role (FilmId, RoleId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = 99813f2e-c52d-4298-a8b6-d210415e5b16 [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Role (FilmId, RoleId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = 057f9f08-99df-43a1-a253-9d81a273142b [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Role (FilmId, RoleId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = b976037a-6469-466f-911c-a6b65bb1bb33 [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Role (FilmId, RoleId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = c3fab8e2-f366-4020-b6e9-c8473322ba79 [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Role (FilmId, RoleId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = d3a31721-89ed-4676-addf-117c7990a089 [Type: Guid (0)]
+NHibernate: INSERT INTO Film_Role (FilmId, RoleId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = dc33acea-d178-4760-b683-cd05100e71c6 [Type: Guid (0)]
+NHibernate: INSERT INTO Film_KeyWord (FilmId, KeyWordId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = 026f2a5f-be37-41c5-a150-b7b436e082cf [Type: Guid (0)]
+NHibernate: INSERT INTO Film_KeyWord (FilmId, KeyWordId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = 05bcb1ff-d536-4cc0-9f29-9e8788994ac6 [Type: Guid (0)]
+NHibernate: INSERT INTO Film_KeyWord (FilmId, KeyWordId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = bf3e4659-db60-4d94-9ec2-f1e72672c2cb [Type: Guid (0)]
+NHibernate: INSERT INTO Film_KeyWord (FilmId, KeyWordId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = 6029d073-0d8d-4ccb-8c07-76a1bf63ca1f [Type: Guid (0)]
+NHibernate: INSERT INTO Film_KeyWord (FilmId, KeyWordId) VALUES (@p0, @p1);@p0 = 610bdf84-05a4-4c9b-bb26-a011000165e1 [Type: Guid (0)], @p1 = 614fe6d9-4bcf-4c5d-847a-ac5db4799ccc [Type: Guid (0)]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3f5156c8-3162-4e7f-a2bc-1a836f2154fa" testId="f44a4466-4518-c384-6e24-36ad2220a8c2" testName="PageFetcherConstructorTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.7026147" startTime="2012-03-11T00:05:05.6013437+00:00" endTime="2012-03-11T00:05:06.3113047+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f5156c8-3162-4e7f-a2bc-1a836f2154fa">
+    </UnitTestResult>
+    <UnitTestResult executionId="21d91408-8373-4a0e-82d5-dcad972843bd" testId="ff33a400-dbb8-3deb-880e-6135c385c15e" testName="AddFileExtensionTest" computerName="BEN_VIRTUAL_DEV" duration="00:00:00.0151186" startTime="2012-03-11T00:05:06.3142344+00:00" endTime="2012-03-11T00:05:06.3366953+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21d91408-8373-4a0e-82d5-dcad972843bd">
+    </UnitTestResult>
+  </Results>
+</TestRun>

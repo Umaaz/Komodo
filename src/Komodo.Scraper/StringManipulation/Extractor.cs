@@ -19,22 +19,60 @@ namespace Komodo.Scraper.StringManipulation
             if (!expression.Contains("{X}"))
                 throw new ArgumentException("expression");
             var values = new List<string>();
-            
-            var s = expression.Remove(expression.IndexOf("{X}"));
-            value = value.Remove(0, value.IndexOf(s));
-            while(expression.Contains("{X}"))
+            while(expression.Contains("{X}")) //while there are still items to get
             {
-                var start = expression.IndexOf("{X}");
-                var endChar = expression[start + 3];
-                expression = expression.Remove(0, start);
-                value = value.Remove(0, start);
-                values.Add(value.Remove(value.IndexOf(endChar)));
-                value = value.Remove(0,value.IndexOf(endChar)).Trim();
-                expression = expression.Remove(0, expression.IndexOf(endChar));
+                //get characters to mark start of string to extract
+                //startmark = title=\"
+                string startMark = expression.Remove(expression.IndexOf("{X}"));
+                
+                //remove to startmark
+                value = value.Remove(0, value.IndexOf(startMark) + startMark.Length);
+                //remove {X} from expression
+                //expression = \" date\"{X}\"
+                expression = expression.Remove(0,expression.IndexOf("{X}"));
+                expression = expression.Remove(0, 3);
+                //get charactes to mark end of string to extract
+                string endMark;
+                if (expression.Contains("{X}")) //three is another expression
+                {
+                    /*example
+                     * expression = "({X}) title="
+                     * endmark = "("
+                     * 
+                     * expression = ") title={X}"
+                     * endmark = ") t"
+                     */
+                    endMark = expression.Remove(expression.IndexOf("{X}") > 3 ? 3 : expression.IndexOf("{X}"));
+                }
+                else
+                {
+                    /*example
+                     * expression = ")"
+                     * endmark = ")"
+                     * 
+                     * expression = ") title"
+                     * endmark = ") t"
+                     */
+                    endMark = expression.Length < 3 ? expression : expression.Remove(3);
+                }
+                //expression = \" date\"{X}\"
+                //value = Matrix\" date=\"2003\"
+                //endmark = \" 
+                var valueToUse = value.Remove(value.IndexOf(endMark));
+                //valueToUse = Matrix
+                values.Add(valueToUse);
+                //expression = {X}\"
+                //value = 2003\"
+                if (expression.Contains("{X}"))
+                {
+                    value = value.Remove(0,value.IndexOf(endMark));
+                    value = value.Remove(0, expression.IndexOf("{X}"));
+                    expression = expression.Remove(0, expression.IndexOf("{X}"));
+                }
             }
             return values.ToArray();
         }
-
+        
         public static string[] ExtractAndDecode(string expression, string value)
         {
             if (string.IsNullOrEmpty(expression) || string.IsNullOrWhiteSpace(expression))

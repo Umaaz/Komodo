@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using Komodo.Core.Types;
 using Komodo.Core.Types.Model;
 using Komodo.Scraper.Exceptions;
 using Komodo.Scraper.Fetcher;
+using Komodo.Scraper.Fetcher.Types;
 using Komodo.Scraper.IMDB.Types;
 using Komodo.Scraper.StringManipulation;
 
@@ -27,9 +27,34 @@ namespace Komodo.Scraper.IMDB
                 return null;
             }
             if (search.Results.Count == 0)
-                return new Film(){Title = title};
+                return new Film
+                           {
+                               Title = title
+                           };
+            Result top = null;
+            foreach (var result in search.Results)
+            {
+                if (result.Title.Trim().ContainsIgnoreCase(title.Trim()))
+                {
+                    top = result;
+                    break;
+                }
+            }
+            if (top == null)
+            {
+                foreach (var result in search.Results)
+                {
+                    if (result.Title.Trim().ContainsAllWords(title.Trim()))
+                    {
+                        top = result;
+                        break;
+                    }
+                }
+            }
+            if (top == null)
+                top = search.Results[0];
             //use top search
-            var top = search.Results[0];
+            
             return GetFilmFromImdbResult((ImdbResult)top);
         }
 
@@ -95,7 +120,7 @@ namespace Komodo.Scraper.IMDB
             {
                 if(!Regex.IsMatch(bit, ">(.*)<"))
                     continue;
-                var p = Extractor.Extract(">{X}<", bit);
+                var p = Extractor.Extract(" >{X}</a>", bit);
                 if (Regex.IsMatch(p[0], "see more", RegexOptions.IgnoreCase))
                     continue;
                 keywords.Add(new KeyWord{Word =p[0]});
@@ -124,7 +149,7 @@ namespace Komodo.Scraper.IMDB
 
         private static string GetStoryline(string storylineSource)
         {
-            return (Extractor.ExtractAndDecode("<p>{X}<em", storylineSource)[0]);
+            return (Extractor.ExtractAndDecode("<p>{X}</p>", storylineSource)[0]);
         }
 
         private static List<string> GetTableParts(string source)
